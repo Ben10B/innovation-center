@@ -1,0 +1,23 @@
+{
+  "name": "innovation-center",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ben10B/innovation-center.git"
+  },
+  "author": "Team Black Stars",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ben10B/innovation-center/issues"
+  },
+  "homepage": "https://github.com/Ben10B/innovation-center#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.8.0"
+  }
+}
