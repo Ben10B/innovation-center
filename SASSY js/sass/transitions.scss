@@ -1,7 +1,7 @@
 @import 'mixins';
 @import 'color';
 @each $prop in width, height{
-    @each $color in primary, second, third, white{
+    @each $color in primary, second, third, white, grape, blue, cyan, fGreen, tGreen, red, gray, yellow, orange{
         @for $sec from 0s through 60s{
             .extnd-#{$prop}-#{$color}-#{$sec} {
                 width: 100px;
@@ -33,6 +33,15 @@
                     @if($color == second) { background: $secondaryColor; }
                     @if($color == third) { background: $thirdColor; }
                     @if($color == white) { background: white; }
+                    @if($color == grape) { background: #AB79A3; }
+                    @if($color == blue) { background: #056CB6; }
+                    @if($color == cyan) { background: #12B5EA; }
+                    @if($color == fGreen) { background: #8CAB3C; }
+                    @if($color == tGreen) { background: #D6E03E; }
+                    @if($color == red) { background: #D24D3B; }
+                    @if($color == gray) { background: #2B2929; }
+                    @if($color == yellow) { background: #FFCC00; }
+                    @if($color == orange) { background: #EA9919; }
                 }
             }
         }
