@@ -82,10 +82,7 @@ h6 {
     background-color: #505050;
     color: white; }
 
-p {
-  margin: 1%; }
-
-header {
+p, header {
   padding: 1%; }
 
 a {
