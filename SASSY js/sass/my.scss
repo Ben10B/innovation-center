@@ -6,3 +6,20 @@
 @import 'text-elements';
 @import 'transitions';
 @import 'ui-elements';
+
+#fancyNav {
+  li {
+    margin-left: 1%;
+    margin-bottom: 1%;
+    border: 1px solid #000;
+    min-width: 90px;
+    max-width: 90px;
+    min-height: 90px;
+    max-height: 90px;
+    &:hover {
+      margin-bottom: 0%;
+      min-height: 100px;
+      max-height: 100px;
+    }
+  }
+}
