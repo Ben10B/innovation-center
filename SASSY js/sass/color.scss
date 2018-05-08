@@ -8,6 +8,8 @@ $thirdColor: #000;
 }
 .bg-third{ background-color: $thirdColor;
 }
+.bg-white{ background-color: white;
+}
 .bg-primary-light{ background-color: lighten($primaryColor, 50%);
 }
 .bg-second-light{ background-color: lighten($secondaryColor, 50%);

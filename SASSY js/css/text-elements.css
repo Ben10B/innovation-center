@@ -9,6 +9,9 @@
 .bg-third {
   background-color: #000; }
 
+.bg-white {
+  background-color: white; }
+
 .bg-primary-light {
   background-color: #c4dced; }
 
@@ -64,7 +67,7 @@ h6 {
   font-size: 18pt; }
 
 .table {
-  font-family: "Open Sans", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   border-collapse: collapse;
   width: 100%; }
   .table td, .table th {
