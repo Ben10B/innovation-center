@@ -135,6 +135,14 @@ a {
         .nav .dropdown-nav .dropdown-content a {
           display: block;
           text-align: left; } }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.sticky + .column {
+  padding-top: 135px; }
+
 .nav-right {
   top: 0;
   right: 0;
