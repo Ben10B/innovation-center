@@ -100,12 +100,13 @@ function setParallax(){
     }
 }
 //Sticky Navbar
-window.onscroll = function() {stickNavbar()};
-
-var navbar = document.getElementById("fancyNav");
-var sticky = navbar.offsetTop;
-
+if(document.getElementById("fancyNav") !== null){
+    window.onscroll = function() {stickNavbar()};
+}
 function stickNavbar() {
+    var navbar = document.getElementById("fancyNav");
+    var sticky = navbar.offsetTop;
+    
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
