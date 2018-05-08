@@ -99,3 +99,16 @@ function setParallax(){
         img[i].style.display = "none";
     }
 }
+//Sticky Navbar
+window.onscroll = function() {stickNavbar()};
+
+var navbar = document.getElementById("fancyNav");
+var sticky = navbar.offsetTop;
+
+function stickNavbar() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

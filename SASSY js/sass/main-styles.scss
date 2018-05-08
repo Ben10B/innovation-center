@@ -29,6 +29,21 @@
         }
     }
 }
+//padding-: top, bottom, left, right
+@each $side in right, left, top, bottom{
+    @for $num from 1 through 100{
+        .pad-#{$side}-#{$num}{
+            @if($side == left){ padding-left: $num * 1px;
+            }
+            @else if($side == top){ padding-top: $num * 1px; 
+            }
+            @else if($side == right){ padding-right: $num * 1px; 
+            }
+            @else if($side == bottom){ padding-bottom: $num * 1px; 
+            }
+        }
+    }
+}
 //wdth-: {number}
 @for $wdth from 1 through 100{
     .wdth-#{$wdth}{
@@ -47,15 +62,16 @@
     flex-direction: column;
     padding: 1%;
     min-height: 25vh;
-    margin-bottom: 2%;
 }
 //Content flows left > right
 .row{
     display: flex;
     flex-direction: row;
     padding: 1%;
-    *{
-        flex: 1;
+    @for $flex from 1 through 10{
+        .flex-#{$flex}{
+            flex: $flex;
+        }
     }
 }
 @media all and (max-width: 575px){
