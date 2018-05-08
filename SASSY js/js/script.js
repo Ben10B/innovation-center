@@ -99,10 +99,61 @@ function setParallax(){
         img[i].style.display = "none";
     }
 }
+//Creates the nav bar from a fancyNavbar class
+if(document.getElementsByClassName("fancyNavbar")[0] !== null) {
+    var fancyNavbar = document.getElementsByClassName("fancyNavbar")[0];
+    var ul = document.createElement("ul");
+    ul.className = "row";
+    for(var i = 0; i < 6; i++) {
+        var li = document.createElement("li");
+        var a = document.createElement("a");
+        a.className = "column";
+        var iTag = document.createElement("i");
+        var p = document.createElement("p");
+        p.className = "txt-center";
+        switch (i) {
+            case 0:
+                li.id = "red";
+                iTag.className = "fas fa-info-circle";
+                p.innerHTML = "Information";
+                break;
+            case 1:
+                li.id = "tGreen";
+                iTag.className = "fas fa-plug";
+                p.innerHTML = "Connect";
+                break;
+            case 2:
+                li.id = "fGreen";
+                iTag.className = "fas fa-comments";
+                p.innerHTML = "Discussion";
+                break;
+            case 3:
+                li.id = "cyan";
+                iTag.className = "fas fa-newspaper";
+                p.innerHTML = "Advertise";
+                break;
+            case 4:
+                li.id = "blue";
+                iTag.className = "fas fa-calendar-alt";
+                p.innerHTML = "Calendar";
+                break;
+            case 5:
+                li.id = "grape";
+                iTag.className = "fas fa-trophy";
+                p.innerHTML = "Current";
+                break;
+        }
+        a.appendChild(iTag);
+        a.appendChild(p);
+        li.appendChild(a);
+        ul.appendChild(li);
+    }
+    fancyNavbar.appendChild(ul);
+}
 //Sticky Navbar
 window.onscroll = function() {stickNavbar()};
 
-var navbar = document.getElementById("fancyNav");
+var navbar = document.getElementsByClassName("fancyNavbar")[0];
 var sticky = navbar.offsetTop;
 
 function stickNavbar() {
@@ -112,3 +163,11 @@ function stickNavbar() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+/* <li class="changeTo-red-1s"><a class="column"><i class="fas fa-info-circle"></i><p class="txt-center">Information</p></a></li>
+<li class="changeTo-tGreen-1s"><a class="column"><i class="fas fa-plug"></i><p class="txt-center">Connect</p></a></li>
+<li class="changeTo-fGreen-1s"><a class="column"><i class="fas fa-comments"></i><p class="txt-center">Discussion</p></a></li>
+<li class="changeTo-cyan-1s"><a class="column"><i class="fas fa-newspaper"></i><p class="txt-center">Advertise</p></a></li>
+<li class="changeTo-blue-1s"><a class="column"><i class="fas fa-calendar-alt"></i><p class="txt-center">Calendar</p></a></li>
+<li class="changeTo-grape-1s"><a class="column"><i class="fas fa-trophy"></i><p class="txt-center">Current</p></a></li> */
