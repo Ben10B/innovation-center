@@ -101,12 +101,12 @@ function setParallax(){
 }
 //Sticky Navbar
 if(document.getElementById("fancyNav") !== null){
+    var navbar = document.getElementById("fancyNav");
+    var sticky = navbar.offsetTop;
     window.onscroll = function() {stickNavbar()};
 }
 function stickNavbar() {
-    var navbar = document.getElementById("fancyNav");
-    var sticky = navbar.offsetTop;
-    
+
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
