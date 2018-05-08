@@ -106,31 +106,47 @@ if(document.getElementsByClassName("fancyNavbar")[0] !== null) {
     ul.className = "row";
     for(var i = 0; i < 6; i++) {
         var li = document.createElement("li");
+        li.className = "dropdown-nav";
         var a = document.createElement("a");
-        a.className = "column";
         var iTag = document.createElement("i");
         var p = document.createElement("p");
         p.className = "txt-center";
+        var dropdown = document.createElement("div");
+        dropdown.className = "dropdown-content";
         switch (i) {
             case 0:
                 li.id = "red";
                 iTag.className = "fas fa-info-circle";
                 p.innerHTML = "Information";
+                var add = document.createElement("a");                
+                add.innerHTML = "Fill 1";
+                dropdown.appendChild(add);
+                var add1 = document.createElement("a");                
+                add1.innerHTML = "Fill 2";
+                dropdown.appendChild(add1);
+                var add2 = document.createElement("a");                
+                add2.innerHTML = "Fill 3";
+                dropdown.appendChild(add2);
                 break;
             case 1:
                 li.id = "tGreen";
                 iTag.className = "fas fa-plug";
                 p.innerHTML = "Connect";
+                var add = document.createElement("a");
+                add.innerHTML = "Contact";
+                dropdown.appendChild(add);
                 break;
             case 2:
                 li.id = "fGreen";
                 iTag.className = "fas fa-comments";
                 p.innerHTML = "Discussion";
+
                 break;
             case 3:
                 li.id = "cyan";
                 iTag.className = "fas fa-newspaper";
                 p.innerHTML = "Advertise";
+
                 break;
             case 4:
                 li.id = "blue";
@@ -141,14 +157,24 @@ if(document.getElementsByClassName("fancyNavbar")[0] !== null) {
                 li.id = "grape";
                 iTag.className = "fas fa-trophy";
                 p.innerHTML = "Current";
+                var add = document.createElement("a");
+                add.innerHTML = "Current Projects";
+                dropdown.appendChild(add);
+                var add1 = document.createElement("a");
+                add1.innerHTML = "Awards";
+                dropdown.appendChild(add1);
                 break;
         }
         a.appendChild(iTag);
         a.appendChild(p);
         li.appendChild(a);
+        li.appendChild(dropdown);
         ul.appendChild(li);
     }
     fancyNavbar.appendChild(ul);
+    var div = document.createElement("div");
+    div.id = "navExtend";
+    fancyNavbar.appendChild(div);
 }
 //Sticky Navbar
 window.onscroll = function() {stickNavbar()};
