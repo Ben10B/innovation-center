@@ -106,7 +106,6 @@ if(document.getElementById("fancyNav") !== null){
     window.onscroll = function() {stickNavbar()};
 }
 function stickNavbar() {
-
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {

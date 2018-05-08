@@ -56,6 +56,12 @@
         height: $hght * 1%;
     }
 }
+//fnt-size-: {number}
+@for $size from 1 through 100{
+    .fnt-size-#{$size}{
+        font-size: $size * 1pt;
+    }
+}
 //Content flows top > bottom
 .column{
     display: flex;
