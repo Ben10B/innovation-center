@@ -111,7 +111,7 @@ a{
     top: 0;
     width: 100%;
 }
-.sticky + .column{
+.sticky + *{
     padding-top: 135px;
 }
 //Navbar    left/right

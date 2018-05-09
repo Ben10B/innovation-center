@@ -171,10 +171,10 @@ if(document.getElementsByClassName("fancyNavbar")[0] !== null) {
         li.appendChild(dropdown);
         ul.appendChild(li);
     }
-    fancyNavbar.appendChild(ul);
+    // fancyNavbar.appendChild(ul);
     var div = document.createElement("div");
     div.id = "navExtend";
-    fancyNavbar.appendChild(div);
+    // fancyNavbar.appendChild(div);
 }
 //Sticky Navbar
 window.onscroll = function() {stickNavbar()};
