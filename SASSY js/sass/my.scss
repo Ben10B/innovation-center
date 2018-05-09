@@ -6,99 +6,6 @@
 @import 'text-elements';
 @import 'transitions';
 @import 'ui-elements';
-// .fancyNavbar {
-//   ul{
-//     justify-content: center;
-  
-//     li {
-//       margin-left: .5%;
-//       // margin-bottom: .5%;
-//       // border: 1px solid #000;
-//       min-width: 90px;
-//       max-width: 90px;
-//       min-height: 90px;
-//       max-height: 90px;
-//       transition: background-color 1s, min-height 1s, max-height 1s;
-//       &:hover {
-//         margin-bottom: 0%;
-//         min-height: 100px;
-//         max-height: 100px;
-//       }
-//       svg {
-//         min-width: 40px;
-//         max-width: 40px;
-//         min-height: 40px;
-//         max-height: 40px;
-//         margin: 15px 25px 0px 25px;
-//       }
-//       a {
-//         color: #000;
-//         &:hover {
-//           color: #000;
-//         }
-//       }
-//     }
-//   }
-//   #navExtend {
-//     transition: background-color 1s;
-//   }
-//   #red:hover, #red:hover + .dropNav {
-//     background-color: #D24D3B;
-//     display: block;
-//   }
-//   #tGreen:hover, #tGreen:hover + .dropNav {
-//     background-color: #D6E03E;
-//     display: block;
-//   }
-//   #fGreen:hover, #fGreen:hover + .dropNav {
-//     background-color: #8CAB3C;
-//     display: block;
-//   }
-//   #cyan:hover, #cyan:hover + .dropNav {
-//     background-color: #12B5EA;
-//     display: block;
-//   }
-//   #blue:hover, #blue:hover + .dropNav {
-//     background-color: #056CB6;
-//     display: block;
-//   }
-//   #grape:hover, #grape:hover + .dropNav {
-//     background-color: #AB79A3;
-//     display: block;
-//   }
-  
-//   .dropNav{
-//     // border: 1px double #345;
-//     display: none;
-//     position: relative;
-//     // position: absolute;
-//     // top: 0;
-//     width: 0;
-//     z-index: 1;
-//     @include transition(width, 2s);
-//     &:hover{
-//       width: 100%;
-//       display: block;
-//       background-color: inherit;
-//       & a{
-//         display: block;
-//       }
-//     }
-//     a{
-//       display: none;
-//       text-align: center;
-//       border: 0;
-//       // min-width: 90px;
-//       // max-width: 90px;
-//       // min-height: 20px;
-//       // max-height: 20px;
-//       &:hover {
-//         display: block;
-//         margin-bottom: auto;
-//       }
-//     }
-//   }
-// }
 .fancyNavbar {
   position: relative;
   ul{
@@ -172,7 +79,7 @@
   .dropNav{
     display: none;
     position: absolute;
-    top: 89%;
+    top: 79%;
     width: 100vh;
     background-color: initial;
     @include transitionColor(1s);
