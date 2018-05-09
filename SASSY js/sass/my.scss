@@ -7,9 +7,11 @@
 @import 'transitions';
 @import 'ui-elements';
 .fancyNavbar {
-  position: relative;
   ul{
+    position: relative;
     justify-content: center;
+    padding: 0;
+    img{width:180px; height: 90px;}
     li {
       margin-left: .5%;
       margin-bottom: 0;
@@ -43,44 +45,39 @@
     background-color: #D24D3B;
     display: block;
     @include transitionColor(0s);
-    cursor: crosshair;
   }
   #tGreen:hover, #tGreen:hover + .dropNav {
     background-color: #D6E03E;
     display: block;
     @include transitionColor(0s);
-    cursor: crosshair;
   }
   #fGreen:hover, #fGreen:hover + .dropNav {
     background-color: #8CAB3C;
     display: block;
     @include transitionColor(0s);
-    cursor: crosshair;
   }
   #cyan:hover, #cyan:hover + .dropNav {
     background-color: #12B5EA;
     display: block;
     @include transitionColor(0s);
-    cursor: crosshair;
   }
   #blue:hover, #blue:hover + .dropNav {
     background-color: #056CB6;
     display: block;
     @include transitionColor(0s);
-    cursor: crosshair;
   }
   #grape:hover, #grape:hover + .dropNav {
     background-color: #AB79A3;
     display: block;
     @include transitionColor(0s);
-    cursor: crosshair;
   }
   
   .dropNav{
     display: none;
     position: absolute;
-    top: 79%;
-    width: 100vh;
+    top: 89%;
+    width: 100vw;
+    text-align: center;
     background-color: initial;
     @include transitionColor(1s);
     z-index: 1;
@@ -99,4 +96,7 @@
       padding: 10px;
     }
   }
+}
+html{
+  overflow-x: hidden;
 }
