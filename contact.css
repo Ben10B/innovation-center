@@ -20,15 +20,21 @@ footer {
   margin-top: 20px;
   position: relative;
 }
-footer div ul div a {
-  margin-bottom: 10%;
+footer div p {
+  margin: auto 0%;
 }
 
 .headDesc {
   margin-top: 2%;
 }
 .footer-col {
+  display: flex;
+  flex-direction: column;
   border-left: .1px solid #000;
+  padding: 0% 2%;
+}
+.footer-col a {
+  margin-bottom: 10px;
 }
 .footer-col:first-child {
   border-left: 0px solid #000;
