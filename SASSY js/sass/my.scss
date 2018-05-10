@@ -7,11 +7,16 @@
 @import 'transitions';
 @import 'ui-elements';
 .fancyNavbar {
+  z-index: 1;
   ul{
     position: relative;
     justify-content: center;
     padding: 0;
-    img{width:180px; height: 90px;}
+    img{
+      max-width: 200px; 
+      min-height: 90px;
+      max-height: 90px;
+    }
     li {
       margin-left: .5%;
       margin-bottom: 0;
@@ -80,7 +85,7 @@
     text-align: center;
     background-color: initial;
     @include transitionColor(1s);
-    z-index: 1;
+    z-index: 2;
     &:hover{
       display: block;
       background-color: #2B2929;

@@ -5,17 +5,20 @@ if(document.getElementsByClassName("slideShow-container").length !== 0){
 }
 function slideShow(index){
     var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("indicator");
     for (var i = 0; i < slides.length; i++) {
         slides[i].style.display = "none"; 
-    }
-    for (var i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" activeI", "");
     }
     if(index > slides.length) slide = 1;
     if(index < 1) slide = slides.length;
     slides[slide-1].style.display = "block";
-    dots[slide-1].className += " activeI"; 
+
+    if(document.getElementsByClassName("indicator").length !== 0){
+        var dots = document.getElementsByClassName("indicator");
+        for (var i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" activeI", "");
+        }
+        dots[slide-1].className += " activeI"; 
+    }
 }
 function toggle(x){
     slideShow(slide += x);
@@ -182,17 +185,10 @@ var navbar = document.getElementsByClassName("fancyNavbar")[0];
 var sticky = navbar.offsetTop;
 
 function stickNavbar() {
+    // console.log(window.pageYOffset+" "+sticky);
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
   } else {
     navbar.classList.remove("sticky");
   }
 }
-
-
-/* <li class="changeTo-red-1s"><a class="column"><i class="fas fa-info-circle"></i><p class="txt-center">Information</p></a></li>
-<li class="changeTo-tGreen-1s"><a class="column"><i class="fas fa-plug"></i><p class="txt-center">Connect</p></a></li>
-<li class="changeTo-fGreen-1s"><a class="column"><i class="fas fa-comments"></i><p class="txt-center">Discussion</p></a></li>
-<li class="changeTo-cyan-1s"><a class="column"><i class="fas fa-newspaper"></i><p class="txt-center">Advertise</p></a></li>
-<li class="changeTo-blue-1s"><a class="column"><i class="fas fa-calendar-alt"></i><p class="txt-center">Calendar</p></a></li>
-<li class="changeTo-grape-1s"><a class="column"><i class="fas fa-trophy"></i><p class="txt-center">Current</p></a></li> */
