@@ -185,6 +185,7 @@ var navbar = document.getElementsByClassName("fancyNavbar")[0];
 var sticky = navbar.offsetTop;
 
 function stickNavbar() {
+    // console.log(window.pageYOffset+" "+sticky);
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
   } else {

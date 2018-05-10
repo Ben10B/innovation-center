@@ -195,6 +195,7 @@ iframe{
         display: none;
         .imgText{
             bottom: 10px;
+            align-self: center;
             width: 100%;
             text-align: center;
             position: absolute;
@@ -242,6 +243,7 @@ iframe{
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    max-height: 100vh;
 }
 
 //Loader
