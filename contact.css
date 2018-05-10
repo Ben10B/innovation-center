@@ -7,3 +7,18 @@ h1 {
 h4 {
   font-size: 28px;
 }
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  position: relative;
+}
+
+#footerLogo {
+  object-fit: contain;
+}
+#application {
+  margin: 0% 5%;
+  border-radius: 10px;
+  background-color: #999;
+}
