@@ -33,7 +33,3 @@ footer div ul div a {
 .footer-col:first-child {
   border-left: 0px solid #000;
 }
-
-#footerLogo {
-  object-fit: contain;
-}
