@@ -7,5 +7,12 @@
         "Do what you can with all you have, wherever you are. - THEODORE ROOSEVELT", 
         "Reading is to the mind, as exercise is to the body. - BRIAN TRACY", 
         "Today's accomplishments were yesterday's impossibilities. - ROBERT H. SHULLER" 
+    ],
+
+    "Event1": [
+        {
+            "EventName": "Innovative Opening",
+            "EventDescription" : "Gather around as we unviel the opening of our new innovation center to the entire Neumont student body. It's one big leap for us Neumartians"
+        }
     ]
 }
