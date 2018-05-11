@@ -104,105 +104,16 @@ function setParallax() {
         img[i].style.display = "none";
     }
 }
-//Creates the nav bar from a fancyNavbar class
-if (document.getElementsByClassName("fancyNavbar")[0] !== undefined) {
-    var fancyNavbar = document.getElementsByClassName("fancyNavbar")[0];
-    var ul = document.createElement("ul");
-    ul.className = "row";
-    for (var i = 0; i < 6; i++) {
-        var li = document.createElement("li");
-        li.className = "dropdown-nav";
-        var a = document.createElement("a");
-        var iTag = document.createElement("i");
-        var p = document.createElement("p");
-        p.className = "txt-center";
-        var dropdown = document.createElement("div");
-        dropdown.className = "dropdown-content";
-        switch (i) {
-            case 0:
-                li.id = "red";
-                iTag.className = "fas fa-info-circle";
-                p.innerHTML = "Information";
-                var add = document.createElement("a");
-                add.innerHTML = "Fill 1";
-                dropdown.appendChild(add);
-                var add1 = document.createElement("a");
-                add1.innerHTML = "Fill 2";
-                dropdown.appendChild(add1);
-                var add2 = document.createElement("a");
-                add2.innerHTML = "Fill 3";
-                dropdown.appendChild(add2);
-                break;
-            case 1:
-                li.id = "tGreen";
-                iTag.className = "fas fa-plug";
-                p.innerHTML = "Connect";
-                var add = document.createElement("a");
-                add.innerHTML = "Contact";
-                dropdown.appendChild(add);
-                break;
-            case 2:
-                li.id = "fGreen";
-                iTag.className = "fas fa-comments";
-                p.innerHTML = "Discussion";
 
-            //                 break;
-            //             case 3:
-            //                 li.id = "cyan";
-            //                 iTag.className = "fas fa-newspaper";
-            //                 p.innerHTML = "Advertise";
-
-            //                 break;
-            //             case 4:
-            //                 li.id = "blue";
-            //                 iTag.className = "fas fa-calendar-alt";
-            //                 p.innerHTML = "Calendar";
-            //                 break;
-            //             case 5:
-            //                 li.id = "grape";
-            //                 iTag.className = "fas fa-trophy";
-            //                 p.innerHTML = "Current";
-            //                 var add = document.createElement("a");
-            //                 add.innerHTML = "Current Projects";
-            //                 dropdown.appendChild(add);
-            //                 var add1 = document.createElement("a");
-            //                 add1.innerHTML = "Awards";
-            //                 dropdown.appendChild(add1);
-            //                 break;
-            //         }
-            //         a.appendChild(iTag);
-            //         a.appendChild(p);
-            //         li.appendChild(a);
-            //         li.appendChild(dropdown);
-            //         ul.appendChild(li);
-            //     }
-            //     fancyNavbar.appendChild(ul);
-            //     var div = document.createElement("div");
-            //     div.id = "navExtend";
-            //     fancyNavbar.appendChild(div);
-            // }
-            //Sticky Navbar
-        }
-    }
-}
+//Sticky Navbar
 window.onscroll = function () { stickNavbar() };
 var navbar = document.getElementsByClassName("fancyNavbar")[0];
 var sticky = navbar.offsetTop;
 
 function stickNavbar() {
-    // console.log(window.pageYOffset+" "+sticky);
     if (window.pageYOffset >= sticky && window.innerWidth >= 800) {
         navbar.classList.add("sticky");
     } else {
         navbar.classList.remove("sticky");
     }
 }
-
-
-/* <li class="changeTo-red-1s"><a class="column"><i class="fas fa-info-circle"></i><p class="txt-center">Information</p></a></li>
-<li class="changeTo-tGreen-1s"><a class="column"><i class="fas fa-plug"></i><p class="txt-center">Connect</p></a></li>
-<li class="changeTo-fGreen-1s"><a class="column"><i class="fas fa-comments"></i><p class="txt-center">Discussion</p></a></li>
-<li class="changeTo-cyan-1s"><a class="column"><i class="fas fa-newspaper"></i><p class="txt-center">Advertise</p></a></li>
-<li class="changeTo-blue-1s"><a class="column"><i class="fas fa-calendar-alt"></i><p class="txt-center">Calendar</p></a></li>
-<li class="changeTo-grape-1s"><a class="column"><i class="fas fa-trophy"></i><p class="txt-center">Current</p></a></li> */
-
