@@ -1,5 +1,10 @@
 .proj-box {
   border: 1px solid #000;
+  margin: 3% 2% 0% 2%;
+  min-height: 150px;
+}
+.proj-desc {
+  text-align: left;
 }
 .bold {
   font-weight: bold;

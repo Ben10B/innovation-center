@@ -7,69 +7,138 @@
 </head>
 
 <body onload='getCurrentMonth()'>
-    <nav class="fancyNavbar"></nav>
-    <div class='upper-bar'>
-        <div class='bar-left hght-60'>
-            <h1>Innovated Events</h1>
-            <br>
-            <p class='fnt-size-20'>Stay up to date on the latest and greatest projects, contests, fund raising events, and industry expert training
-                sessions here at the innovation center.</p>
-        </div>
-        <div class='bar-right parallax'>
-            <img class='hght-100' src='images/images2.JPG' />
-        </div>
-    </div>
-    <div class='calender-container'>
-        <div class='calender'>
-            <div id='month'>
-                <ul>
-                    <li id='prev' onclick="switchMonths(-1)">&#10094;</li>
-                    <li id='next' onclick="switchMonths(1)">&#10095;</li>
-                    <li>
-                        <p id='the-month'></p>
-                        <br>
-                        <span id='the-year'></span>
-                    </li>
-                </ul>
+    <nav class="fancyNavbar bg-white">
+        <ul class="row">
+            <a id="navImgLink" href="#">
+                <img src="images/nc_horiz-black.png" />
+            </a>
+            <li class="red">
+                <a href="">
+                    <i class="fas fa-info-circle"></i>
+                    <p class="txt-center">Information</p>
+                </a>
+            </li>
+            <div class="row dropNav-red">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
             </div>
-            <div id='days'>
+            <li class="tGreen">
+                <a>
+                    <i class="fas fa-plug"></i>
+                    <p class="txt-center">Connect</p>
+                </a>
+            </li>
+            <div class="row dropNav-tGreen">
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+            </div>
+            <li class="fGreen">
+                <a>
+                    <i class="fas fa-comments"></i>
+                    <p class="txt-center">Discussion</p>
+                </a>
+            </li>
+            <div class="row dropNav-fGreen">
+                <a href="#">Link 5</a>
+                <a href="#">Link 6</a>
+            </div>
+            <li class="cyan">
+                <a>
+                    <i class="fas fa-newspaper"></i>
+                    <p class="txt-center">Advertise</p>
+                </a>
+            </li>
+            <div class="row dropNav-cyan">
+                <a href="#">Link 7</a>
+                <a href="#">Link 8</a>
+            </div>
+            <li class="blue active">
+                <a>
+                    <i class="fas fa-calendar-alt"></i>
+                    <p class="txt-center">Calendar</p>
+                </a>
+            </li>
+            <div class="row dropNav-blue">
+                <a href="#">Link 9</a>
+                <a href="#">Link 10</a>
+            </div>
+            <li class="grape">
+                <a>
+                    <i class="fas fa-trophy"></i>
+                    <p class="txt-center">Current</p>
+                </a>
+            </li>
+            <div class="row dropNav-grape">
+                <a href="#">Link 11</a>
+                <a href="#">Link 12</a>
+            </div>
+        </ul>
+    </nav>
+    <div class='body margn-top-1'>
+        <div class='upper-bar'>
+            <div class='bar-left hght-60'>
+                <h1>Innovated Events</h1>
+                <br>
+                <p class='fnt-size-20'>Stay up to date on the latest and greatest projects, contests, fund raising events, and industry expert training
+                    sessions here at the innovation center.</p>
+            </div>
+            <div class='bar-right parallax'>
+                <img class='hght-100' src='images/images2.JPG' />
+            </div>
+        </div>
+        <div class='calender-container'>
+            <div class='calender'>
+                <div id='month'>
+                    <ul>
+                        <li id='prev' onclick="switchMonths(-1)">&#10094;</li>
+                        <li id='next' onclick="switchMonths(1)">&#10095;</li>
+                        <li>
+                            <p id='the-month'></p>
+                            <br>
+                            <span id='the-year'></span>
+                        </li>
+                    </ul>
+                </div>
+                <div id='days'>
 
+                </div>
+            </div>
+            <div class='event-display'>
+                <div class='events'>
+                    <h3 class='title'>Events</h3>
+                    <br>
+                    <p class='title'>Event Name</p>
+                    <br>
+                    <p class='event-name'>This will be where the event name is pulled from the Json
+                    </p>
+                    <br>
+                    <p class='title'>Description</p>
+                    <br>
+                    <p class='eventdescription'>This will be the event description</p>
+                    <br>
+                </div>
             </div>
         </div>
-        <div class='event-display'>
-            <div class='events'>
-                <h3 class='title'>Events</h3>
-                <br>
-                <p class='title'>Event Name</p>
-                <br>
-                <p class='event-name'>This will be where the event name is pulled
-                    from the Json
-                </p>
-                <br>                
-                <p class='title'>Description</p>
-                <br>
-                <p class='eventdescription'>This will be the event description</p>
-                <br>                                
+        <div id="myCalenderModal" class="calender-modal">
+            <div class="calender-modal-content">
+                <span class="calender-close">&times;</span>
+                <h2 class='create-title'>Create an event</h2>
+                <form name='eventform'>
+                    Event Name:
+                    <br>
+                    <input type="text" name="eventname">
+                    <br>
+                    <br> Event Description:
+                    <br>
+                    <input id='desc-input' type="text" name="eventdesc">
+                    <br>
+                    <br>
+                    <button id='form-button' type="button">Submit</button>
+                </form>
             </div>
         </div>
     </div>
-    <div id="myCalenderModal" class="calender-modal">
-        <div class="calender-modal-content">
-            <span class="calender-close">&times;</span>
-            <h2 class='create-title'>Create an event</h2>
-            <form name='eventform'>
-                Event Name:<br>
-                <input type="text" name="eventname">
-                <br>
-                <br>
-                Event Description:<br>
-                <input id='desc-input' type="text" name="eventdesc">
-                <br><br>
-                <button id='form-button' type="button">Submit</button>
-              </form> 
-        </div>
-    </div>
-    <script src='SASSY js/js/script.js'></script>
+    <script src='scripts/calender.js'></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl"
         crossorigin="anonymous"></script>
 </body>
