@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='SASSY js/css/my.css' rel='stylesheet' />
+    <link href='SASSY js/css/calender.css' rel='stylesheet' />
+</head>
+
+<body onload='getCurrentMonth()'>
+    <nav class="fancyNavbar"></nav>    
+    <div class='calender-container'>
+        <div class='calender'>
+            <div id='month'>
+                <ul>
+                    <li id='prev' onclick="switchMonths(-1)">&#10094;</li>
+                    <li id='next' onclick="switchMonths(1)">&#10095;</li>
+                    <li>
+                        <p id='the-month'></p>
+                        <br>
+                        <span id='the-year'></span>
+                    </li>
+                </ul>
+            </div>
+            <div id='days'>
+
+            </div>
+        </div>
+    <script src='SASSY js/js/script.js'></script>
+        
+</body>
+
+</html>
