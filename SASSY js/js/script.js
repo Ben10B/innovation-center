@@ -1,29 +1,40 @@
 //Slideshow
-var slide = 1;
-if (document.getElementsByClassName("slideShow-container").length !== 0) {
-    slideShow(slide);
+var slideIndex = 1;
+if(document.getElementsByClassName("slideShow-container").length !== 0){
+    slideShow(slideIndex);
 }
-function slideShow(index) {
+function slideShow(index){
     var slides = document.getElementsByClassName("mySlides");
     for (var i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+        slides[i].style.display = "none"; 
     }
-    if (index > slides.length) slide = 1;
-    if (index < 1) slide = slides.length;
-    slides[slide - 1].style.display = "block";
 
-    if (document.getElementsByClassName("indicator").length !== 0) {
+    if(index > slides.length || slideIndex > slides.length) slideIndex = 1;
+    if(index < 1 || slideIndex < 1) slideIndex = slides.length;
+    slides[slideIndex-1].style.display = "block";
+    //Dots
+    if(document.getElementsByClassName("indicator").length !== 0){
         var dots = document.getElementsByClassName("indicator");
         for (var i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" activeI", "");
         }
-        dots[slide - 1].className += " activeI";
+        dots[slideIndex-1].className += " activeI"; 
     }
     slideIndex++;
     setTimeout(slideShow, 3000);
 }
-function toggle(x) {
-    slideShow(slide += x);
+function toggle(x){
+    // slideShow(slideIndex += x);
+    var slides = document.getElementsByClassName("mySlides");
+    slideIndex += x;
+
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    else if(slideIndex < 1){ slideIndex = slides.length; }
+
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slides[slideIndex-1].style.display = "block";  
 }
 function current(x) {
     slideShow(slide = x);
