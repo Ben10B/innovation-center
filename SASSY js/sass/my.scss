@@ -97,87 +97,38 @@ html{ overflow-x: hidden;
   }
 }
 @media all and (max-width: 799px){
-  // .fancyNavbar {
-  //   ul{
-  //     display: flex;
-  //     flex-direction: column;
-  //     flex-wrap: wrap; 
-  //     overflow: hidden;
-  //     #navImgLink img{ 
-  //       display: block;
-  //       margin-left: auto;
-  //       margin-right: auto;
-  //     }
-  //     li {
-  //       margin-left: 0;
-  //       min-width: 100%;
-  //       max-width: 100%;
-  //       min-height: 45px;
-  //       &:hover {
-  //         margin-bottom: 0%;
-  //       }
-  //       svg {
-  //         display: none;
-  //       }
-  //       a{
-  //         &:link, &:visited{ 
-  //             display: inherit;
-  //             padding: 6px 17px;
-  //         }
-  //       }
-  //     }
-  //     @each $color in 'red', 'tGreen', 'fGreen', 'cyan', 'blue', 'grape'{
-  //       .dropNav-#{$color}{
-  //         position: relative;
-  //         a{
-  //           display: block;
-  //           padding: 5px;
-  //         }
-  //       }
-  //     } 
-  //   }
-  // }
-}
-@media all and (max-width: 799px){
   .fancyNavbar {
     ul{
-      display: grid;
-      grid-template-columns: auto;
-      grid-template-rows: 65px 25px;
-      grid-gap: 0;
-      #navImgLink {
-        grid-column-start: 1;        
-        grid-column-end: span 6;        
-        grid-row-start: 1;
-        grid-row-end: 2;
-        max-height: 65px;        
-        img{ 
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          min-height: 65px;
-          max-height: 65px;
-        }
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap; 
+      overflow: hidden;
+      #navImgLink img{ 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
       li {
-        grid-row-start: 2;
-        grid-row-end: 3;
         margin-left: 0;
-        max-height: 25px;
-        min-width: 75px;
-        justify-self: stretch;
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 45px;
+        &:hover {
+          margin-bottom: 0%;
+        }
         svg {
           display: none;
         }
         a{
-          font-size: $textSize - 1.5;
-          justify-self: center;
-          text-decoration: none;
+          &:link, &:visited{ 
+              display: inherit;
+              padding: 6px 17px;
+          }
         }
       }
       @each $color in 'red', 'tGreen', 'fGreen', 'cyan', 'blue', 'grape'{
         .dropNav-#{$color}{
-          top: 94%;
+          position: relative;
           a{
             display: block;
             padding: 5px;
@@ -186,6 +137,55 @@ html{ overflow-x: hidden;
       } 
     }
   }
+}
+@media all and (max-width: 799px){
+  // .fancyNavbar {
+  //   ul{
+  //     display: grid;
+  //     grid-template-columns: auto;
+  //     grid-template-rows: 65px 25px;
+  //     grid-gap: 0;
+  //     #navImgLink {
+  //       grid-column-start: 1;        
+  //       grid-column-end: span 6;        
+  //       grid-row-start: 1;
+  //       grid-row-end: 2;
+  //       max-height: 65px;        
+  //       img{ 
+  //         display: block;
+  //         margin-left: auto;
+  //         margin-right: auto;
+  //         min-height: 65px;
+  //         max-height: 65px;
+  //       }
+  //     }
+  //     li {
+  //       grid-row-start: 2;
+  //       grid-row-end: 3;
+  //       margin-left: 0;
+  //       max-height: 25px;
+  //       min-width: 75px;
+  //       justify-self: stretch;
+  //       svg {
+  //         display: none;
+  //       }
+  //       a{
+  //         font-size: $textSize - 1.5;
+  //         justify-self: center;
+  //         text-decoration: none;
+  //       }
+  //     }
+  //     @each $color in 'red', 'tGreen', 'fGreen', 'cyan', 'blue', 'grape'{
+  //       .dropNav-#{$color}{
+  //         top: 94%;
+  //         a{
+  //           display: block;
+  //           padding: 5px;
+  //         }
+  //       }
+  //     } 
+  //   }
+  // }
 }
 @media all and (max-width: 550px){
   .parallax{ height: 75%; }
