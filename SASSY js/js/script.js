@@ -1,5 +1,3 @@
-// import { triggerAsyncId } from "async_hooks";
-
 //Slideshow
 var slide = 1;
 if (document.getElementsByClassName("slideShow-container").length !== 0) {
@@ -193,7 +191,7 @@ var sticky = navbar.offsetTop;
 
 function stickNavbar() {
     // console.log(window.pageYOffset+" "+sticky);
-    if (window.pageYOffset >= sticky) {
+    if (window.pageYOffset >= sticky && window.innerWidth >= 800) {
         navbar.classList.add("sticky");
     } else {
         navbar.classList.remove("sticky");
