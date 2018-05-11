@@ -1,0 +1,210 @@
+body { 
+    background-color: #989898;
+    padding: 10px;
+}
+
+.upper-bar {
+    background-color: #000;
+    color: #fff;
+    max-width: 100%;
+    height: 400px;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.bar-right {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.bar-left {
+    padding: 15px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.calender-container {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.calender {
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+/* Displays the month and year */
+#month {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#month ul {
+    margin: 0;
+    padding: 0;
+}
+
+#month ul li {
+    color: #FFF;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+#month #prev {
+    float: left;
+    padding-top: 30px;
+    padding-left: 20px; 
+    cursor: pointer;   
+}
+
+#month #next {
+    float: right;
+    padding-top: 30px;
+    padding-right: 20px;
+    cursor: pointer;    
+}
+/* End of month and year display */
+
+/* ul with class of weekdays
+    Inside are li with content of the days of week
+    Not in use at the moment */
+.weekdays {
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    background-color: #2b2929;
+}
+
+.weekdays li {
+    width: 13.6%;
+    height: 3.6%;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+}
+/* End of weekday element*/
+
+/* Displays all of the days of the month */
+#days {
+    width: 100%;
+    height: 280px;
+    margin: auto;
+    padding: 25px 10px;
+    background: #eee;
+}
+
+#days li {
+    list-style-type: none;
+    text-align: center;
+    width: 13.6%;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 20px 0px;
+    font-size:12px;
+    color: #000;
+}
+
+#days li:hover {
+    background-color: #EA9919;
+    color: white;
+    cursor: pointer;
+}
+/* End of day display */
+
+.calender-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.calender-modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.calender-close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.calender-close:hover,
+.calender-close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.create-title {
+    padding-bottom: 15px;
+}
+
+#desc-input {
+    width: 80%;
+    height: 100px;
+    text-align: left;
+}
+/* End of calender modal */
+.event-display {
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+    padding-left: 5px;  
+    display: flex;
+    flex: .4;
+    flex-direction: column;
+}
+
+.events {
+    background-color: #FC0;
+    border: 1px solid #000;
+    width: 99%;
+    height: 425px;
+}
+
+.title {
+    padding-top: 5px;
+    text-align: center;        
+    text-decoration: underline;
+}
+
+.event-name, .eventdescription {
+    padding: 20px;
+}
+
