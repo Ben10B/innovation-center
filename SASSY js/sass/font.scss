@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
-$mainFont: 'Dosis', sans-serif;
+// $mainFont: 'Dosis', sans-serif;
+$mainFont: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 @import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans');
 $bodyFont: Georgia, 'Times New Roman', Times, serif;
 //base font size
 $textSize: 12pt;
+//responsive font size; big as h1
+$resTextSize: 5vw;

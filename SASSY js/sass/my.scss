@@ -187,3 +187,6 @@ html{ overflow-x: hidden;
     }
   }
 }
+@media all and (max-width: 550px){
+  .parallax{ height: 75%; }
+}

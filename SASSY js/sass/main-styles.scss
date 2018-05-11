@@ -14,9 +14,16 @@
         align-self: $self;
     }
 }
+//self-: left, right, center
+//justifys self according to position
+@each $self in right, left, center{
+    .justself-#{$self}{
+        justify-self: $self
+    }
+}
 //margn-: top, bottom, left, right
 @each $side in right, left, top, bottom{
-    @for $num from 1 through 100{
+    @for $num from 0 through 100{
         .margn-#{$side}-#{$num}{
             @if($side == left){ margin-left: $num * 1%;
             }
@@ -31,7 +38,7 @@
 }
 //padding-: top, bottom, left, right
 @each $side in right, left, top, bottom{
-    @for $num from 1 through 100{
+    @for $num from 0 through 100{
         .pad-#{$side}-#{$num}{
             @if($side == left){ padding-left: $num * 1px;
             }
@@ -60,6 +67,12 @@
 @for $size from 1 through 100{
     .fnt-size-#{$size}{
         font-size: $size * 1pt;
+    }
+}
+//res-fnt-size-: {number}
+@for $size from 1 through 10{
+    .res-fnt-size-#{$size}{
+        font-size: $size * 1vw;
     }
 }
 //Content flows top > bottom
