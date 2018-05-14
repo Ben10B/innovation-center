@@ -1,3 +1,7 @@
+body {
+  background-color: #FC0;
+}
+
 .flx-col-container {
     display: flex;
     flex-direction: column;
@@ -17,6 +21,21 @@
   .bg-black {
     background-color: black;
     color: white;
+  }
+
+  .bg-yellow {
+    background-color: #FC0;
+  }
+
+  .center {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .fnt-calibri {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .padding {
