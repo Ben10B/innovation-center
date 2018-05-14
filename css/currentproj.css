@@ -1,0 +1,43 @@
+.flx-col-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .flx-row-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+  
+  .flx-container {
+    flex: 1;
+  }
+  
+  .bg-black {
+    background-color: black;
+    color: white;
+  }
+
+  .padding {
+      padding: 10px;
+  }
+
+  .basicbutton {
+      width: 100px;
+      height: 40px;
+      padding: 10px;
+      border: 1px solid #000;
+      background-color: #FC0;
+      color: #000; 
+      -webkit-transition: border 1s;
+      transition: border 1s;
+      -webkit-transition: background-color 1s;
+      transition: background-color 1s;
+  }
+
+  .basicbutton:hover {
+      background-color: #000;
+      color: #fff;
+      border: 1px solid #fff;
+  }

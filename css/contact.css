@@ -35,7 +35,18 @@ footer div p {
 }
 .footer-col a {
   margin-bottom: 10px;
+  line-height: 120%;
 }
 .footer-col:first-child {
   border-left: 0px solid #000;
+}
+
+@media all and (max-width: 575px){
+  .footer-col {
+    border-left-width: 0px;
+  }
+
+  #footer-hold {
+    flex-direction: row;
+  }
 }
