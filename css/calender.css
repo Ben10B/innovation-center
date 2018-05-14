@@ -205,7 +205,11 @@ body {
     text-decoration: underline;
 }
 
-.event-name, .eventdescription {
+#event-name, #eventdescription {
     padding: 20px;
+}
+
+#event-name {
+    text-align: center;
 }
 
