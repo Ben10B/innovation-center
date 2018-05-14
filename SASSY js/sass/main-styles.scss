@@ -81,6 +81,11 @@
     flex-direction: column;
     padding: 1%;
     min-height: 25vh;
+    @for $flex from 1 through 10{
+        .flex-#{$flex}{
+            flex: $flex;
+        }
+    }
 }
 //Content flows left > right
 .row{
@@ -94,8 +99,8 @@
     }
 }
 @media all and (max-width: 575px){
-    .row{ flex-direction: column;
-    }
+    // .row{ flex-direction: column;
+    // }
 }
 //Images
 img{
