@@ -1,11 +1,108 @@
+body {
+  background-attachment: fixed;
+  background-image: url('../images/innovation 20.jpg');
+  background-size: 100%;
+}
+h1 {
+  margin-top: 20px;
+}
+
+h1, #pageDesc {
+  margin-right: 25%;
+  color: #fff;
+}
+
 .proj-box {
   border: 1px solid #000;
   margin: 3% 2% 0% 2%;
   min-height: 150px;
+  justify-content:center;
+  align-items:center;
+  background-color: #fff;
 }
 .proj-desc {
   text-align: left;
 }
 .bold {
   font-weight: bold;
+}
+
+#pageDesc {
+  padding: 2% 14%;
+}
+
+/* All footer css */
+footer {
+  background-color: rgba(0, 0, 0, .6);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  margin-top: 20px;
+}
+footer p {
+  padding: .5%;
+  margin: 10px 0px;  
+}
+footer, .footer-media a {
+  margin-right: 25%;
+  color: #fff;
+}
+.footer-media {
+  padding: .5%;  
+  align-items:center;
+}
+.footer-media svg {
+  color: #1DA1F2;
+}
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #fff;  
+}
+.footer-col:first-child {
+  border-left: 0px solid #fff;
+}
+.footer-col a {
+  padding: .5%;
+  margin: auto 1%;
+  line-height: 120%;
+  text-align: right;
+}
+.highlight-1:hover {
+  background-color: #D24D3B;
+  color: #fff;
+}
+.highlight-2:hover {
+  background-color: #D6E03E;
+  color: #fff;
+}
+.highlight-3:hover {
+  background-color: #12B5EA;
+  color: #fff;
+}
+.highlight-4:hover {
+  background-color: #056CB6;
+  color: #fff;
+}
+.highlight-5:hover {
+  background-color: #AB79A3;
+  color: #fff;
+}
+#link-holder {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  margin-left: auto;
+}
+@media all and (max-width: 935px){
+  .footer-col {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media all and (max-width: 575px){
+  #footer-hold {
+    flex-direction: row;
+  }
 }
