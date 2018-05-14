@@ -1,12 +1,18 @@
-var month = document.getElementById("the-month");
-var monthColor = document.getElementById("month");
-var year = document.getElementById("the-year");
-var day = document.getElementById('days');
 var prev = document.getElementById("prev");
 var next = document.getElementById("next");
-var nameofevent = document.getElementsByClassName('event-name');
-var descriptionofevent = document.getElementsByClassName('eventdescription');
-
+//Previous and Next button
+var month = document.getElementById("the-month");
+var monthColor = document.getElementById("month");
+//Month stuff
+var year = document.getElementById("the-year");
+var day = document.getElementById('days');
+//Year
+var nameofevent = document.getElementById('event-name');
+var descriptionofevent = document.getElementById('eventdescription');
+//JSON
+var ulist = document.createElement("ul");
+var list = document.createElement("li");
+//List
 
 var d = new Date();
 var currentMonth = d.getMonth();
@@ -14,23 +20,6 @@ var currentYear = d.getFullYear();
 var currentDay = d.getDate();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var monthIndex = 0;
-
-var event;
-var request = new XMLHttpRequest();
-
-function loadFormData() {
-    request.open('GET', './json/events.json');
-    request.onload = formLoadComplete;
-    request.send();
-}
-function formLoadComplete(evt) {
-    event = JSON.parse(request.responseText);
-    var eventName = document.forms["eventform"]["eventname"].value;
-    var eventDesc = document.forms["eventform"]["eventdesc"].value;
-    eventName = event[0].EventName;
-    eventDesc = event[0].EventDescription;
-    console.log(eventName + " " + eventDesc);
-}
 
 function switchMonths(index) {
     navigateCalender(monthIndex += index);
@@ -46,8 +35,6 @@ function getCurrentMonth() {
 function getDays(currentMonth, currentYear) {
     var date = new Date(currentYear, currentMonth, 1);
     var days = [];
-    var ulist = document.createElement("ul");
-    var list = document.createElement("li");
 
     while (date.getMonth() === currentMonth) {
         days.push(new Date(date).toUTCString().substring(0, 7));
@@ -66,19 +53,10 @@ function getDays(currentMonth, currentYear) {
     day.appendChild(ulist);
 }
 
-var formBtn = document.getElementById('form-button');
-formBtn.onclick = function() {
-    loadFormData();
-};
-
-function displayEvent() {
-
-}
-
 function createModal() {
     var modal = document.getElementById('myCalenderModal');
     var span = document.getElementsByClassName("calender-close")[0];
-        modal.style.display = "block";
+    modal.style.display = "block";
     span.onclick = function () {
         modal.style.display = "none";
     }
@@ -87,7 +65,13 @@ function createModal() {
             modal.style.display = "none";
         }
     }
+    var formBtn = document.getElementById('form-button');
+    formBtn.onclick = function() {
+        loadFormData();
+        modal.style.display = "none";
+    };
 }
+
 
 function navigateCalender(index) {
     year.innerHTML = currentYear;
@@ -183,4 +167,28 @@ function navigateCalender(index) {
         prev.style.color = "#fff";
         next.style.color = "#fff";
     }
-} 
+}
+
+function displayEvent() {
+    
+}
+
+var event;
+var request = new XMLHttpRequest();
+
+function loadFormData() {
+    request.open('GET', './json/events.json');
+    request.onload = formLoadComplete;
+    request.send();
+}
+function formLoadComplete(evt) {
+    event = JSON.parse(request.responseText);
+    var eventName = document.forms["eventform"]["eventname"];
+    var eventDesc = document.forms["eventform"]["eventdesc"];
+    eventName.value = event[0].EventName;
+    eventDesc.value = event[0].EventDescription;
+    nameofevent.innerText = eventName.value;
+    descriptionofevent.innerHTML = eventDesc.value;     
+    eventName.value = "";
+    eventDesc.value = "";      
+}
