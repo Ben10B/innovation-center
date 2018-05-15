@@ -68,6 +68,7 @@ if(document.getElementById('footer') != undefined) {
   linkHolder.appendChild(footerCols[0]);
   linkHolder.appendChild(footerCols[1]);
   footerHold.appendChild(linkHolder);
+  //adds to html
   footer.appendChild(footerHold);
 }
 //output
