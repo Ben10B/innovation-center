@@ -1,3 +1,8 @@
+/* Colors */
+hr{ background-color: rgb(233, 225, 225);
+}
+.bg-steelGray-lt{ background-color: #989898;
+}
 /* All footer css */
 footer {
   background-color: rgba(0, 0, 0, .6);
@@ -12,7 +17,6 @@ footer p {
   margin: 10px 0px;  
 }
 footer, .footer-media a {
-  margin-right: 25%;
   color: #fff;
 }
 .footer-media {
@@ -35,6 +39,7 @@ footer, .footer-media a {
   margin: auto 1%;
   line-height: 120%;
   text-align: right;
+  color: #fff;  
 }
 .highlight-1:hover {
   background-color: #D24D3B;
@@ -45,16 +50,24 @@ footer, .footer-media a {
   color: #fff;
 }
 .highlight-3:hover {
-  background-color: #12B5EA;
+  background-color: #8CAB3C;
   color: #fff;
 }
 .highlight-4:hover {
-  background-color: #056CB6;
+  background-color: #12B5EA;
   color: #fff;
 }
 .highlight-5:hover {
+  background-color: #056CB6;
+  color: #fff;
+}
+.highlight-6:hover {
   background-color: #AB79A3;
   color: #fff;
+}
+
+#footer-hold {
+  padding: 0%;
 }
 #link-holder {
   display: flex;
@@ -72,11 +85,15 @@ footer, .footer-media a {
   }
   .footer-col a {
     text-align: center;
+    color: #fff;
   }
 
   #link-holder {
     flex-direction: column;
     margin: 0% auto;    
+  }
+  #social-hold {
+    margin: 0% auto;
   }
   #footer-hold {
     flex-direction: column;

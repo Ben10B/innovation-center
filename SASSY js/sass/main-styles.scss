@@ -18,7 +18,7 @@
 //justifys self according to position
 @each $self in right, left, center{
     .justself-#{$self}{
-        justify-self: $self
+        justify-self: $self;
     }
 }
 //margn-: top, bottom, left, right

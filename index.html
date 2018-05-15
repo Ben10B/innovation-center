@@ -3,6 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="SASSY js/css/my.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -15,7 +16,7 @@
             </div>
         </div>
         <!-- Navigation -->
-        <nav class="fancyNavbar bg-white">
+        <nav class="fancyNavbar shdw-red bg-white">
             <ul class="row">
                 <a id="navImgLink" href="index.html">
                     <img src="images/nc_horiz-black.png" />
@@ -24,7 +25,7 @@
                 <div class="row dropNav-red">
                     <a href="#">Link 1</a> <a href="#">Link 2</a>
                 </div>
-                <li class="tGreen"><a><i class="fas fa-plug"></i><p class="txt-center">Connect</p></a></li>
+                <li class="tGreen"><a href="contact.html"><i class="fas fa-plug"></i><p class="txt-center">Connect</p></a></li>
                 <div class="row dropNav-tGreen">
                     <a href="#">Link 3</a> <a href="#">Link 4</a>
                 </div>
@@ -60,11 +61,15 @@
                 <img src="images/innovation 7.JPG">
                 <h1 class="imgText">THIS IS THE THIRD PICTURE.</h1>
             </div>
+            <div class="mySlides">
+                <img src="images/innovation 8.JPG">
+                <h1 class="imgText">THIS IS THE FOURTH PICTURE.</h1>
+            </div>
             <a class="prev" onclick="toggle(-1)">&#10094;</a>
             <a class="next" onclick="toggle(1)">&#10095;</a> 
         </div>
-        <div class="column txt-center hght-80">
-            <h1>How To Make Your Idea a Great Reality</h1>
+        <div class="column txt-center">
+            <h1>HOW TO MAKE YOUR IDEA A GREAT REALITY</h1>
             <p class="fnt-size-18 pad-bottom-0">Many students have great ideas.</p>
             <p class="fnt-size-18 pad-top-0">Neumont wants to help them launch their ideas into businesses that will impact the world!</p>
             <div class="row">
@@ -82,21 +87,44 @@
             </div>
         </div>
         <hr>
-        <div class="bg-primary column txt-center">
-            <h1>Neumont Student Innovation Launch Pad Tools</h1>
-            <img src="images/launchPadTools.png"/>
-        </div>
-        <hr/>
-        <div class="row bg-white txt-center">
-            <h1 class="flex-1 self-center">ghhg</h1>
-            <div class="flex-1">
-                <p>tyywttyjujrjj thtrgfr vrfrfrt</p>
-                <p>tyywttyjujrjj thtrgfr vrfrfrt</p>
-                <p>tyywttyjujrjj thtrgfr vrfrfrt</p>
-                <p>tyywttyjujrjj thtrgfr vrfrfrt</p>
+        <div class="parallax column txt-center hght-80">
+            <img src="images/innovation 2.jpg">
+            <h1 class="self-center fnt-white">VALUES</h1>
+            <div class="self-center txt-center fnt-white">
+                <p class="fnt-size-16">Fact that all ideas (meaning intellectual property rights) belong to the students and not Neumont.</p>
+                <p class="fnt-size-16">The innovation center assists in the development of a prototype.</p>
+                <p class="fnt-size-16">The innovation center establishes connections to project funding groups such as Zions bank, VentureCapital.org and others.</p>
+                <p class="fnt-size-16">Assists in helping students get involved in statewide business competitions.</p>
             </div>
         </div>
-        <hr/>
+        <hr>
+        <div class="column txt-center">
+            <h1 class="margn-bottom-1">NEUMONT STUDENT INNOVATION LAUNCH PAD TOOLS</h1>
+            <img src="images/launchPadTools.png"/>
+        </div>
+        <footer>
+            <div id="footer-hold" class="row">
+                <div>
+                <div class="footer-media">
+                    <i class="fab fa-twitter"></i>
+                    <a href="#"><p class="fnt-white">Visit our Twitter! (talk to Jerry Pay to see if they have social media)</p></a>
+                </div>
+                <p class="bold fnt-white">&copy; Temporary</p>         
+                </div>
+                <div id="link-holder">
+                <ul class="footer-col">
+                    <a class="highlight-1">Information</a>
+                    <a class="highlight-2">Contact Us</a>
+                    <a class="highlight-3">Advertise for Expertise</a>
+                </ul>
+                <ul class="footer-col">
+                    <a class="highlight-4">Calendar</a>
+                    <a class="highlight-5">Current Projects</a>
+                    <a class="highlight-6">Awards</a>
+                </ul>
+                </div>
+            </div>
+        </footer>
         <script src="SASSY js/js/script.js"></script>
     </body>
 </html>
