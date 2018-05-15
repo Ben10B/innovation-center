@@ -17,10 +17,14 @@ body {
   .flx-container {
     flex: 1;
   }
+
+  .height {
+    height: 70%;
+  }
   
   .bg-black {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
 
   .bg-yellow {
@@ -39,14 +43,19 @@ body {
   }
 
   .padding {
-      padding: 10px;
+      padding-left: 10px;
+      padding-top: 10px;      
+  }
+
+  .padding-bottom {
+    padding-bottom: 10px;
   }
 
   .basicbutton {
       width: 100px;
       height: 40px;
       padding: 10px;
-      border: 1px solid #000;
+      border: 1px solid #fff;
       background-color: #FC0;
       color: #000; 
       -webkit-transition: border 1s;
@@ -56,7 +65,19 @@ body {
   }
 
   .basicbutton:hover {
-      background-color: #000;
-      color: #fff;
-      border: 1px solid #fff;
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #000;
+  }
+
+  @media all and (max-width: 800px) {
+    .flx-row-container {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .height {
+      height: 50%;
+    }
   }
