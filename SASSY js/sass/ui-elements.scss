@@ -275,12 +275,10 @@ iframe{
         }
     }
 }
-//Break
+//Hr
 hr{
     @include border-radius-all(5px);
-    border-left: 1px solid #2B2929;
-    border-right: 1px solid #2B2929;
-    background-color: lighten(#2B2929, 30%);
-    margin: 1% 25%;
-    padding: 5px;
+    background-color: lighten(#2B2929, 80%);
+    margin: 1% 15%;
+    padding: 2.5px;
 }
