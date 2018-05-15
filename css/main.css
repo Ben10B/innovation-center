@@ -1,3 +1,8 @@
+/* Colors */
+hr{ background-color: rgb(233, 225, 225);
+}
+div p{ color: #989898;
+}
 /* All footer css */
 footer {
   background-color: rgba(0, 0, 0, .6);
@@ -45,14 +50,18 @@ footer, .footer-media a {
   color: #fff;
 }
 .highlight-3:hover {
-  background-color: #12B5EA;
+  background-color: #8CAB3C;
   color: #fff;
 }
 .highlight-4:hover {
-  background-color: #056CB6;
+  background-color: #12B5EA;
   color: #fff;
 }
 .highlight-5:hover {
+  background-color: #056CB6;
+  color: #fff;
+}
+.highlight-6:hover {
   background-color: #AB79A3;
   color: #fff;
 }
