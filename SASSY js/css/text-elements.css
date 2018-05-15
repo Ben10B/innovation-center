@@ -4,7 +4,7 @@
   background-color: #2a6288; }
 
 .bg-second {
-  background-color: #505050; }
+  background-color: #989898; }
 
 .bg-third {
   background-color: #000; }
@@ -16,7 +16,7 @@
   background-color: #c4dced; }
 
 .bg-second-light {
-  background-color: #d0d0d0; }
+  background-color: white; }
 
 .bg-third-light {
   background-color: gray; }
@@ -25,7 +25,7 @@
   color: #2a6288; }
 
 .fnt-second {
-  color: #505050; }
+  color: #989898; }
 
 .fnt-white {
   color: white; }
@@ -37,32 +37,32 @@ body, html {
   height: 100%; }
 
 h1 {
-  font-family: "Dosis", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-weight: 700;
   font-size: 28pt; }
 
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-weight: 700;
   font-size: 26pt; }
 
 h3 {
-  font-family: "Dosis", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-weight: 700;
   font-size: 24pt; }
 
 h4 {
-  font-family: "Dosis", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-weight: 700;
   font-size: 22pt; }
 
 h5 {
-  font-family: "Dosis", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-weight: 700;
   font-size: 20pt; }
 
 h6 {
-  font-family: "Dosis", sans-serif;
+  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
   font-weight: 700;
   font-size: 18pt; }
 
@@ -77,12 +77,12 @@ h6 {
   .table tr:hover {
     background-color: #ddd; }
   .table th {
-    font-family: "Dosis", sans-serif;
+    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     font-size: 17pt;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: inherit;
-    background-color: #505050;
+    background-color: #989898;
     color: white; }
 
 p, header {
@@ -106,7 +106,7 @@ a {
   flex-wrap: wrap;
   overflow: hidden; }
   .nav a {
-    font-family: "Dosis", sans-serif; }
+    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; }
     .nav a:link, .nav a:visited {
       background-color: #2a6288;
       color: white;
@@ -144,7 +144,7 @@ a {
   width: 100%; }
 
 .sticky + * {
-  padding-top: 135px; }
+  padding-top: 90px; }
 
 .nav-right {
   top: 0;
@@ -157,7 +157,7 @@ a {
     display: flex;
     flex-direction: column; }
     .nav-right ul a {
-      font-family: "Dosis", sans-serif; }
+      font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; }
       .nav-right ul a:link, .nav-right ul a:visited {
         background-color: #2a6288;
         color: white;
@@ -191,7 +191,7 @@ a {
     display: flex;
     flex-direction: column; }
     .nav-left ul a {
-      font-family: "Dosis", sans-serif; }
+      font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; }
       .nav-left ul a:link, .nav-left ul a:visited {
         background-color: #2a6288;
         color: white;
@@ -223,9 +223,9 @@ a {
   position: fixed;
   overflow: auto; }
   .sidebar a {
-    font-family: "Dosis", sans-serif; }
+    font-family: Calibri, "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif; }
     .sidebar a:link, .sidebar a:visited {
-      background-color: #505050;
+      background-color: #989898;
       color: white;
       width: 100%;
       padding: 14px 25px;

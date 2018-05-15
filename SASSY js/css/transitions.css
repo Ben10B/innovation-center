@@ -37,7 +37,7 @@
   background-color: #2a6288; }
 
 .bg-second {
-  background-color: #505050; }
+  background-color: #989898; }
 
 .bg-third {
   background-color: #000; }
@@ -49,7 +49,7 @@
   background-color: #c4dced; }
 
 .bg-second-light {
-  background-color: #d0d0d0; }
+  background-color: white; }
 
 .bg-third-light {
   background-color: gray; }
@@ -58,7 +58,7 @@
   color: #2a6288; }
 
 .fnt-second {
-  color: #505050; }
+  color: #989898; }
 
 .fnt-white {
   color: white; }
@@ -2212,7 +2212,7 @@
   -webkit-transition-duration: 0s; }
   .extnd-width-second-0s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-0s {
   width: 100px;
@@ -2234,7 +2234,7 @@
   -moz-transition-duration: 0s;
   -webkit-transition-duration: 0s; }
   .changeTo-second-0s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-1s {
   width: 100px;
@@ -2247,7 +2247,7 @@
   -webkit-transition-duration: 1s; }
   .extnd-width-second-1s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-1s {
   width: 100px;
@@ -2269,7 +2269,7 @@
   -moz-transition-duration: 1s;
   -webkit-transition-duration: 1s; }
   .changeTo-second-1s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-2s {
   width: 100px;
@@ -2282,7 +2282,7 @@
   -webkit-transition-duration: 2s; }
   .extnd-width-second-2s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-2s {
   width: 100px;
@@ -2304,7 +2304,7 @@
   -moz-transition-duration: 2s;
   -webkit-transition-duration: 2s; }
   .changeTo-second-2s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-3s {
   width: 100px;
@@ -2317,7 +2317,7 @@
   -webkit-transition-duration: 3s; }
   .extnd-width-second-3s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-3s {
   width: 100px;
@@ -2339,7 +2339,7 @@
   -moz-transition-duration: 3s;
   -webkit-transition-duration: 3s; }
   .changeTo-second-3s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-4s {
   width: 100px;
@@ -2352,7 +2352,7 @@
   -webkit-transition-duration: 4s; }
   .extnd-width-second-4s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-4s {
   width: 100px;
@@ -2374,7 +2374,7 @@
   -moz-transition-duration: 4s;
   -webkit-transition-duration: 4s; }
   .changeTo-second-4s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-5s {
   width: 100px;
@@ -2387,7 +2387,7 @@
   -webkit-transition-duration: 5s; }
   .extnd-width-second-5s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-5s {
   width: 100px;
@@ -2409,7 +2409,7 @@
   -moz-transition-duration: 5s;
   -webkit-transition-duration: 5s; }
   .changeTo-second-5s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-6s {
   width: 100px;
@@ -2422,7 +2422,7 @@
   -webkit-transition-duration: 6s; }
   .extnd-width-second-6s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-6s {
   width: 100px;
@@ -2444,7 +2444,7 @@
   -moz-transition-duration: 6s;
   -webkit-transition-duration: 6s; }
   .changeTo-second-6s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-7s {
   width: 100px;
@@ -2457,7 +2457,7 @@
   -webkit-transition-duration: 7s; }
   .extnd-width-second-7s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-7s {
   width: 100px;
@@ -2479,7 +2479,7 @@
   -moz-transition-duration: 7s;
   -webkit-transition-duration: 7s; }
   .changeTo-second-7s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-8s {
   width: 100px;
@@ -2492,7 +2492,7 @@
   -webkit-transition-duration: 8s; }
   .extnd-width-second-8s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-8s {
   width: 100px;
@@ -2514,7 +2514,7 @@
   -moz-transition-duration: 8s;
   -webkit-transition-duration: 8s; }
   .changeTo-second-8s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-9s {
   width: 100px;
@@ -2527,7 +2527,7 @@
   -webkit-transition-duration: 9s; }
   .extnd-width-second-9s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-9s {
   width: 100px;
@@ -2549,7 +2549,7 @@
   -moz-transition-duration: 9s;
   -webkit-transition-duration: 9s; }
   .changeTo-second-9s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-10s {
   width: 100px;
@@ -2562,7 +2562,7 @@
   -webkit-transition-duration: 10s; }
   .extnd-width-second-10s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-10s {
   width: 100px;
@@ -2584,7 +2584,7 @@
   -moz-transition-duration: 10s;
   -webkit-transition-duration: 10s; }
   .changeTo-second-10s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-11s {
   width: 100px;
@@ -2597,7 +2597,7 @@
   -webkit-transition-duration: 11s; }
   .extnd-width-second-11s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-11s {
   width: 100px;
@@ -2619,7 +2619,7 @@
   -moz-transition-duration: 11s;
   -webkit-transition-duration: 11s; }
   .changeTo-second-11s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-12s {
   width: 100px;
@@ -2632,7 +2632,7 @@
   -webkit-transition-duration: 12s; }
   .extnd-width-second-12s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-12s {
   width: 100px;
@@ -2654,7 +2654,7 @@
   -moz-transition-duration: 12s;
   -webkit-transition-duration: 12s; }
   .changeTo-second-12s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-13s {
   width: 100px;
@@ -2667,7 +2667,7 @@
   -webkit-transition-duration: 13s; }
   .extnd-width-second-13s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-13s {
   width: 100px;
@@ -2689,7 +2689,7 @@
   -moz-transition-duration: 13s;
   -webkit-transition-duration: 13s; }
   .changeTo-second-13s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-14s {
   width: 100px;
@@ -2702,7 +2702,7 @@
   -webkit-transition-duration: 14s; }
   .extnd-width-second-14s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-14s {
   width: 100px;
@@ -2724,7 +2724,7 @@
   -moz-transition-duration: 14s;
   -webkit-transition-duration: 14s; }
   .changeTo-second-14s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-15s {
   width: 100px;
@@ -2737,7 +2737,7 @@
   -webkit-transition-duration: 15s; }
   .extnd-width-second-15s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-15s {
   width: 100px;
@@ -2759,7 +2759,7 @@
   -moz-transition-duration: 15s;
   -webkit-transition-duration: 15s; }
   .changeTo-second-15s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-16s {
   width: 100px;
@@ -2772,7 +2772,7 @@
   -webkit-transition-duration: 16s; }
   .extnd-width-second-16s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-16s {
   width: 100px;
@@ -2794,7 +2794,7 @@
   -moz-transition-duration: 16s;
   -webkit-transition-duration: 16s; }
   .changeTo-second-16s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-17s {
   width: 100px;
@@ -2807,7 +2807,7 @@
   -webkit-transition-duration: 17s; }
   .extnd-width-second-17s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-17s {
   width: 100px;
@@ -2829,7 +2829,7 @@
   -moz-transition-duration: 17s;
   -webkit-transition-duration: 17s; }
   .changeTo-second-17s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-18s {
   width: 100px;
@@ -2842,7 +2842,7 @@
   -webkit-transition-duration: 18s; }
   .extnd-width-second-18s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-18s {
   width: 100px;
@@ -2864,7 +2864,7 @@
   -moz-transition-duration: 18s;
   -webkit-transition-duration: 18s; }
   .changeTo-second-18s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-19s {
   width: 100px;
@@ -2877,7 +2877,7 @@
   -webkit-transition-duration: 19s; }
   .extnd-width-second-19s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-19s {
   width: 100px;
@@ -2899,7 +2899,7 @@
   -moz-transition-duration: 19s;
   -webkit-transition-duration: 19s; }
   .changeTo-second-19s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-20s {
   width: 100px;
@@ -2912,7 +2912,7 @@
   -webkit-transition-duration: 20s; }
   .extnd-width-second-20s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-20s {
   width: 100px;
@@ -2934,7 +2934,7 @@
   -moz-transition-duration: 20s;
   -webkit-transition-duration: 20s; }
   .changeTo-second-20s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-21s {
   width: 100px;
@@ -2947,7 +2947,7 @@
   -webkit-transition-duration: 21s; }
   .extnd-width-second-21s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-21s {
   width: 100px;
@@ -2969,7 +2969,7 @@
   -moz-transition-duration: 21s;
   -webkit-transition-duration: 21s; }
   .changeTo-second-21s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-22s {
   width: 100px;
@@ -2982,7 +2982,7 @@
   -webkit-transition-duration: 22s; }
   .extnd-width-second-22s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-22s {
   width: 100px;
@@ -3004,7 +3004,7 @@
   -moz-transition-duration: 22s;
   -webkit-transition-duration: 22s; }
   .changeTo-second-22s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-23s {
   width: 100px;
@@ -3017,7 +3017,7 @@
   -webkit-transition-duration: 23s; }
   .extnd-width-second-23s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-23s {
   width: 100px;
@@ -3039,7 +3039,7 @@
   -moz-transition-duration: 23s;
   -webkit-transition-duration: 23s; }
   .changeTo-second-23s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-24s {
   width: 100px;
@@ -3052,7 +3052,7 @@
   -webkit-transition-duration: 24s; }
   .extnd-width-second-24s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-24s {
   width: 100px;
@@ -3074,7 +3074,7 @@
   -moz-transition-duration: 24s;
   -webkit-transition-duration: 24s; }
   .changeTo-second-24s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-25s {
   width: 100px;
@@ -3087,7 +3087,7 @@
   -webkit-transition-duration: 25s; }
   .extnd-width-second-25s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-25s {
   width: 100px;
@@ -3109,7 +3109,7 @@
   -moz-transition-duration: 25s;
   -webkit-transition-duration: 25s; }
   .changeTo-second-25s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-26s {
   width: 100px;
@@ -3122,7 +3122,7 @@
   -webkit-transition-duration: 26s; }
   .extnd-width-second-26s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-26s {
   width: 100px;
@@ -3144,7 +3144,7 @@
   -moz-transition-duration: 26s;
   -webkit-transition-duration: 26s; }
   .changeTo-second-26s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-27s {
   width: 100px;
@@ -3157,7 +3157,7 @@
   -webkit-transition-duration: 27s; }
   .extnd-width-second-27s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-27s {
   width: 100px;
@@ -3179,7 +3179,7 @@
   -moz-transition-duration: 27s;
   -webkit-transition-duration: 27s; }
   .changeTo-second-27s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-28s {
   width: 100px;
@@ -3192,7 +3192,7 @@
   -webkit-transition-duration: 28s; }
   .extnd-width-second-28s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-28s {
   width: 100px;
@@ -3214,7 +3214,7 @@
   -moz-transition-duration: 28s;
   -webkit-transition-duration: 28s; }
   .changeTo-second-28s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-29s {
   width: 100px;
@@ -3227,7 +3227,7 @@
   -webkit-transition-duration: 29s; }
   .extnd-width-second-29s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-29s {
   width: 100px;
@@ -3249,7 +3249,7 @@
   -moz-transition-duration: 29s;
   -webkit-transition-duration: 29s; }
   .changeTo-second-29s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-30s {
   width: 100px;
@@ -3262,7 +3262,7 @@
   -webkit-transition-duration: 30s; }
   .extnd-width-second-30s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-30s {
   width: 100px;
@@ -3284,7 +3284,7 @@
   -moz-transition-duration: 30s;
   -webkit-transition-duration: 30s; }
   .changeTo-second-30s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-31s {
   width: 100px;
@@ -3297,7 +3297,7 @@
   -webkit-transition-duration: 31s; }
   .extnd-width-second-31s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-31s {
   width: 100px;
@@ -3319,7 +3319,7 @@
   -moz-transition-duration: 31s;
   -webkit-transition-duration: 31s; }
   .changeTo-second-31s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-32s {
   width: 100px;
@@ -3332,7 +3332,7 @@
   -webkit-transition-duration: 32s; }
   .extnd-width-second-32s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-32s {
   width: 100px;
@@ -3354,7 +3354,7 @@
   -moz-transition-duration: 32s;
   -webkit-transition-duration: 32s; }
   .changeTo-second-32s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-33s {
   width: 100px;
@@ -3367,7 +3367,7 @@
   -webkit-transition-duration: 33s; }
   .extnd-width-second-33s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-33s {
   width: 100px;
@@ -3389,7 +3389,7 @@
   -moz-transition-duration: 33s;
   -webkit-transition-duration: 33s; }
   .changeTo-second-33s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-34s {
   width: 100px;
@@ -3402,7 +3402,7 @@
   -webkit-transition-duration: 34s; }
   .extnd-width-second-34s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-34s {
   width: 100px;
@@ -3424,7 +3424,7 @@
   -moz-transition-duration: 34s;
   -webkit-transition-duration: 34s; }
   .changeTo-second-34s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-35s {
   width: 100px;
@@ -3437,7 +3437,7 @@
   -webkit-transition-duration: 35s; }
   .extnd-width-second-35s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-35s {
   width: 100px;
@@ -3459,7 +3459,7 @@
   -moz-transition-duration: 35s;
   -webkit-transition-duration: 35s; }
   .changeTo-second-35s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-36s {
   width: 100px;
@@ -3472,7 +3472,7 @@
   -webkit-transition-duration: 36s; }
   .extnd-width-second-36s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-36s {
   width: 100px;
@@ -3494,7 +3494,7 @@
   -moz-transition-duration: 36s;
   -webkit-transition-duration: 36s; }
   .changeTo-second-36s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-37s {
   width: 100px;
@@ -3507,7 +3507,7 @@
   -webkit-transition-duration: 37s; }
   .extnd-width-second-37s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-37s {
   width: 100px;
@@ -3529,7 +3529,7 @@
   -moz-transition-duration: 37s;
   -webkit-transition-duration: 37s; }
   .changeTo-second-37s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-38s {
   width: 100px;
@@ -3542,7 +3542,7 @@
   -webkit-transition-duration: 38s; }
   .extnd-width-second-38s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-38s {
   width: 100px;
@@ -3564,7 +3564,7 @@
   -moz-transition-duration: 38s;
   -webkit-transition-duration: 38s; }
   .changeTo-second-38s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-39s {
   width: 100px;
@@ -3577,7 +3577,7 @@
   -webkit-transition-duration: 39s; }
   .extnd-width-second-39s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-39s {
   width: 100px;
@@ -3599,7 +3599,7 @@
   -moz-transition-duration: 39s;
   -webkit-transition-duration: 39s; }
   .changeTo-second-39s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-40s {
   width: 100px;
@@ -3612,7 +3612,7 @@
   -webkit-transition-duration: 40s; }
   .extnd-width-second-40s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-40s {
   width: 100px;
@@ -3634,7 +3634,7 @@
   -moz-transition-duration: 40s;
   -webkit-transition-duration: 40s; }
   .changeTo-second-40s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-41s {
   width: 100px;
@@ -3647,7 +3647,7 @@
   -webkit-transition-duration: 41s; }
   .extnd-width-second-41s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-41s {
   width: 100px;
@@ -3669,7 +3669,7 @@
   -moz-transition-duration: 41s;
   -webkit-transition-duration: 41s; }
   .changeTo-second-41s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-42s {
   width: 100px;
@@ -3682,7 +3682,7 @@
   -webkit-transition-duration: 42s; }
   .extnd-width-second-42s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-42s {
   width: 100px;
@@ -3704,7 +3704,7 @@
   -moz-transition-duration: 42s;
   -webkit-transition-duration: 42s; }
   .changeTo-second-42s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-43s {
   width: 100px;
@@ -3717,7 +3717,7 @@
   -webkit-transition-duration: 43s; }
   .extnd-width-second-43s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-43s {
   width: 100px;
@@ -3739,7 +3739,7 @@
   -moz-transition-duration: 43s;
   -webkit-transition-duration: 43s; }
   .changeTo-second-43s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-44s {
   width: 100px;
@@ -3752,7 +3752,7 @@
   -webkit-transition-duration: 44s; }
   .extnd-width-second-44s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-44s {
   width: 100px;
@@ -3774,7 +3774,7 @@
   -moz-transition-duration: 44s;
   -webkit-transition-duration: 44s; }
   .changeTo-second-44s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-45s {
   width: 100px;
@@ -3787,7 +3787,7 @@
   -webkit-transition-duration: 45s; }
   .extnd-width-second-45s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-45s {
   width: 100px;
@@ -3809,7 +3809,7 @@
   -moz-transition-duration: 45s;
   -webkit-transition-duration: 45s; }
   .changeTo-second-45s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-46s {
   width: 100px;
@@ -3822,7 +3822,7 @@
   -webkit-transition-duration: 46s; }
   .extnd-width-second-46s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-46s {
   width: 100px;
@@ -3844,7 +3844,7 @@
   -moz-transition-duration: 46s;
   -webkit-transition-duration: 46s; }
   .changeTo-second-46s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-47s {
   width: 100px;
@@ -3857,7 +3857,7 @@
   -webkit-transition-duration: 47s; }
   .extnd-width-second-47s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-47s {
   width: 100px;
@@ -3879,7 +3879,7 @@
   -moz-transition-duration: 47s;
   -webkit-transition-duration: 47s; }
   .changeTo-second-47s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-48s {
   width: 100px;
@@ -3892,7 +3892,7 @@
   -webkit-transition-duration: 48s; }
   .extnd-width-second-48s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-48s {
   width: 100px;
@@ -3914,7 +3914,7 @@
   -moz-transition-duration: 48s;
   -webkit-transition-duration: 48s; }
   .changeTo-second-48s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-49s {
   width: 100px;
@@ -3927,7 +3927,7 @@
   -webkit-transition-duration: 49s; }
   .extnd-width-second-49s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-49s {
   width: 100px;
@@ -3949,7 +3949,7 @@
   -moz-transition-duration: 49s;
   -webkit-transition-duration: 49s; }
   .changeTo-second-49s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-50s {
   width: 100px;
@@ -3962,7 +3962,7 @@
   -webkit-transition-duration: 50s; }
   .extnd-width-second-50s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-50s {
   width: 100px;
@@ -3984,7 +3984,7 @@
   -moz-transition-duration: 50s;
   -webkit-transition-duration: 50s; }
   .changeTo-second-50s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-51s {
   width: 100px;
@@ -3997,7 +3997,7 @@
   -webkit-transition-duration: 51s; }
   .extnd-width-second-51s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-51s {
   width: 100px;
@@ -4019,7 +4019,7 @@
   -moz-transition-duration: 51s;
   -webkit-transition-duration: 51s; }
   .changeTo-second-51s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-52s {
   width: 100px;
@@ -4032,7 +4032,7 @@
   -webkit-transition-duration: 52s; }
   .extnd-width-second-52s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-52s {
   width: 100px;
@@ -4054,7 +4054,7 @@
   -moz-transition-duration: 52s;
   -webkit-transition-duration: 52s; }
   .changeTo-second-52s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-53s {
   width: 100px;
@@ -4067,7 +4067,7 @@
   -webkit-transition-duration: 53s; }
   .extnd-width-second-53s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-53s {
   width: 100px;
@@ -4089,7 +4089,7 @@
   -moz-transition-duration: 53s;
   -webkit-transition-duration: 53s; }
   .changeTo-second-53s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-54s {
   width: 100px;
@@ -4102,7 +4102,7 @@
   -webkit-transition-duration: 54s; }
   .extnd-width-second-54s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-54s {
   width: 100px;
@@ -4124,7 +4124,7 @@
   -moz-transition-duration: 54s;
   -webkit-transition-duration: 54s; }
   .changeTo-second-54s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-55s {
   width: 100px;
@@ -4137,7 +4137,7 @@
   -webkit-transition-duration: 55s; }
   .extnd-width-second-55s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-55s {
   width: 100px;
@@ -4159,7 +4159,7 @@
   -moz-transition-duration: 55s;
   -webkit-transition-duration: 55s; }
   .changeTo-second-55s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-56s {
   width: 100px;
@@ -4172,7 +4172,7 @@
   -webkit-transition-duration: 56s; }
   .extnd-width-second-56s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-56s {
   width: 100px;
@@ -4194,7 +4194,7 @@
   -moz-transition-duration: 56s;
   -webkit-transition-duration: 56s; }
   .changeTo-second-56s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-57s {
   width: 100px;
@@ -4207,7 +4207,7 @@
   -webkit-transition-duration: 57s; }
   .extnd-width-second-57s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-57s {
   width: 100px;
@@ -4229,7 +4229,7 @@
   -moz-transition-duration: 57s;
   -webkit-transition-duration: 57s; }
   .changeTo-second-57s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-58s {
   width: 100px;
@@ -4242,7 +4242,7 @@
   -webkit-transition-duration: 58s; }
   .extnd-width-second-58s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-58s {
   width: 100px;
@@ -4264,7 +4264,7 @@
   -moz-transition-duration: 58s;
   -webkit-transition-duration: 58s; }
   .changeTo-second-58s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-59s {
   width: 100px;
@@ -4277,7 +4277,7 @@
   -webkit-transition-duration: 59s; }
   .extnd-width-second-59s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-59s {
   width: 100px;
@@ -4299,7 +4299,7 @@
   -moz-transition-duration: 59s;
   -webkit-transition-duration: 59s; }
   .changeTo-second-59s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-second-60s {
   width: 100px;
@@ -4312,7 +4312,7 @@
   -webkit-transition-duration: 60s; }
   .extnd-width-second-60s:hover {
     width: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-60s {
   width: 100px;
@@ -4334,7 +4334,7 @@
   -moz-transition-duration: 60s;
   -webkit-transition-duration: 60s; }
   .changeTo-second-60s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-width-third-0s {
   width: 100px;
@@ -29418,7 +29418,7 @@
   -webkit-transition-duration: 0s; }
   .extnd-height-second-0s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-0s {
   width: 100px;
@@ -29440,7 +29440,7 @@
   -moz-transition-duration: 0s;
   -webkit-transition-duration: 0s; }
   .changeTo-second-0s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-1s {
   width: 100px;
@@ -29453,7 +29453,7 @@
   -webkit-transition-duration: 1s; }
   .extnd-height-second-1s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-1s {
   width: 100px;
@@ -29475,7 +29475,7 @@
   -moz-transition-duration: 1s;
   -webkit-transition-duration: 1s; }
   .changeTo-second-1s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-2s {
   width: 100px;
@@ -29488,7 +29488,7 @@
   -webkit-transition-duration: 2s; }
   .extnd-height-second-2s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-2s {
   width: 100px;
@@ -29510,7 +29510,7 @@
   -moz-transition-duration: 2s;
   -webkit-transition-duration: 2s; }
   .changeTo-second-2s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-3s {
   width: 100px;
@@ -29523,7 +29523,7 @@
   -webkit-transition-duration: 3s; }
   .extnd-height-second-3s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-3s {
   width: 100px;
@@ -29545,7 +29545,7 @@
   -moz-transition-duration: 3s;
   -webkit-transition-duration: 3s; }
   .changeTo-second-3s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-4s {
   width: 100px;
@@ -29558,7 +29558,7 @@
   -webkit-transition-duration: 4s; }
   .extnd-height-second-4s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-4s {
   width: 100px;
@@ -29580,7 +29580,7 @@
   -moz-transition-duration: 4s;
   -webkit-transition-duration: 4s; }
   .changeTo-second-4s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-5s {
   width: 100px;
@@ -29593,7 +29593,7 @@
   -webkit-transition-duration: 5s; }
   .extnd-height-second-5s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-5s {
   width: 100px;
@@ -29615,7 +29615,7 @@
   -moz-transition-duration: 5s;
   -webkit-transition-duration: 5s; }
   .changeTo-second-5s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-6s {
   width: 100px;
@@ -29628,7 +29628,7 @@
   -webkit-transition-duration: 6s; }
   .extnd-height-second-6s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-6s {
   width: 100px;
@@ -29650,7 +29650,7 @@
   -moz-transition-duration: 6s;
   -webkit-transition-duration: 6s; }
   .changeTo-second-6s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-7s {
   width: 100px;
@@ -29663,7 +29663,7 @@
   -webkit-transition-duration: 7s; }
   .extnd-height-second-7s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-7s {
   width: 100px;
@@ -29685,7 +29685,7 @@
   -moz-transition-duration: 7s;
   -webkit-transition-duration: 7s; }
   .changeTo-second-7s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-8s {
   width: 100px;
@@ -29698,7 +29698,7 @@
   -webkit-transition-duration: 8s; }
   .extnd-height-second-8s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-8s {
   width: 100px;
@@ -29720,7 +29720,7 @@
   -moz-transition-duration: 8s;
   -webkit-transition-duration: 8s; }
   .changeTo-second-8s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-9s {
   width: 100px;
@@ -29733,7 +29733,7 @@
   -webkit-transition-duration: 9s; }
   .extnd-height-second-9s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-9s {
   width: 100px;
@@ -29755,7 +29755,7 @@
   -moz-transition-duration: 9s;
   -webkit-transition-duration: 9s; }
   .changeTo-second-9s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-10s {
   width: 100px;
@@ -29768,7 +29768,7 @@
   -webkit-transition-duration: 10s; }
   .extnd-height-second-10s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-10s {
   width: 100px;
@@ -29790,7 +29790,7 @@
   -moz-transition-duration: 10s;
   -webkit-transition-duration: 10s; }
   .changeTo-second-10s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-11s {
   width: 100px;
@@ -29803,7 +29803,7 @@
   -webkit-transition-duration: 11s; }
   .extnd-height-second-11s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-11s {
   width: 100px;
@@ -29825,7 +29825,7 @@
   -moz-transition-duration: 11s;
   -webkit-transition-duration: 11s; }
   .changeTo-second-11s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-12s {
   width: 100px;
@@ -29838,7 +29838,7 @@
   -webkit-transition-duration: 12s; }
   .extnd-height-second-12s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-12s {
   width: 100px;
@@ -29860,7 +29860,7 @@
   -moz-transition-duration: 12s;
   -webkit-transition-duration: 12s; }
   .changeTo-second-12s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-13s {
   width: 100px;
@@ -29873,7 +29873,7 @@
   -webkit-transition-duration: 13s; }
   .extnd-height-second-13s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-13s {
   width: 100px;
@@ -29895,7 +29895,7 @@
   -moz-transition-duration: 13s;
   -webkit-transition-duration: 13s; }
   .changeTo-second-13s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-14s {
   width: 100px;
@@ -29908,7 +29908,7 @@
   -webkit-transition-duration: 14s; }
   .extnd-height-second-14s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-14s {
   width: 100px;
@@ -29930,7 +29930,7 @@
   -moz-transition-duration: 14s;
   -webkit-transition-duration: 14s; }
   .changeTo-second-14s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-15s {
   width: 100px;
@@ -29943,7 +29943,7 @@
   -webkit-transition-duration: 15s; }
   .extnd-height-second-15s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-15s {
   width: 100px;
@@ -29965,7 +29965,7 @@
   -moz-transition-duration: 15s;
   -webkit-transition-duration: 15s; }
   .changeTo-second-15s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-16s {
   width: 100px;
@@ -29978,7 +29978,7 @@
   -webkit-transition-duration: 16s; }
   .extnd-height-second-16s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-16s {
   width: 100px;
@@ -30000,7 +30000,7 @@
   -moz-transition-duration: 16s;
   -webkit-transition-duration: 16s; }
   .changeTo-second-16s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-17s {
   width: 100px;
@@ -30013,7 +30013,7 @@
   -webkit-transition-duration: 17s; }
   .extnd-height-second-17s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-17s {
   width: 100px;
@@ -30035,7 +30035,7 @@
   -moz-transition-duration: 17s;
   -webkit-transition-duration: 17s; }
   .changeTo-second-17s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-18s {
   width: 100px;
@@ -30048,7 +30048,7 @@
   -webkit-transition-duration: 18s; }
   .extnd-height-second-18s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-18s {
   width: 100px;
@@ -30070,7 +30070,7 @@
   -moz-transition-duration: 18s;
   -webkit-transition-duration: 18s; }
   .changeTo-second-18s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-19s {
   width: 100px;
@@ -30083,7 +30083,7 @@
   -webkit-transition-duration: 19s; }
   .extnd-height-second-19s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-19s {
   width: 100px;
@@ -30105,7 +30105,7 @@
   -moz-transition-duration: 19s;
   -webkit-transition-duration: 19s; }
   .changeTo-second-19s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-20s {
   width: 100px;
@@ -30118,7 +30118,7 @@
   -webkit-transition-duration: 20s; }
   .extnd-height-second-20s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-20s {
   width: 100px;
@@ -30140,7 +30140,7 @@
   -moz-transition-duration: 20s;
   -webkit-transition-duration: 20s; }
   .changeTo-second-20s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-21s {
   width: 100px;
@@ -30153,7 +30153,7 @@
   -webkit-transition-duration: 21s; }
   .extnd-height-second-21s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-21s {
   width: 100px;
@@ -30175,7 +30175,7 @@
   -moz-transition-duration: 21s;
   -webkit-transition-duration: 21s; }
   .changeTo-second-21s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-22s {
   width: 100px;
@@ -30188,7 +30188,7 @@
   -webkit-transition-duration: 22s; }
   .extnd-height-second-22s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-22s {
   width: 100px;
@@ -30210,7 +30210,7 @@
   -moz-transition-duration: 22s;
   -webkit-transition-duration: 22s; }
   .changeTo-second-22s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-23s {
   width: 100px;
@@ -30223,7 +30223,7 @@
   -webkit-transition-duration: 23s; }
   .extnd-height-second-23s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-23s {
   width: 100px;
@@ -30245,7 +30245,7 @@
   -moz-transition-duration: 23s;
   -webkit-transition-duration: 23s; }
   .changeTo-second-23s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-24s {
   width: 100px;
@@ -30258,7 +30258,7 @@
   -webkit-transition-duration: 24s; }
   .extnd-height-second-24s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-24s {
   width: 100px;
@@ -30280,7 +30280,7 @@
   -moz-transition-duration: 24s;
   -webkit-transition-duration: 24s; }
   .changeTo-second-24s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-25s {
   width: 100px;
@@ -30293,7 +30293,7 @@
   -webkit-transition-duration: 25s; }
   .extnd-height-second-25s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-25s {
   width: 100px;
@@ -30315,7 +30315,7 @@
   -moz-transition-duration: 25s;
   -webkit-transition-duration: 25s; }
   .changeTo-second-25s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-26s {
   width: 100px;
@@ -30328,7 +30328,7 @@
   -webkit-transition-duration: 26s; }
   .extnd-height-second-26s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-26s {
   width: 100px;
@@ -30350,7 +30350,7 @@
   -moz-transition-duration: 26s;
   -webkit-transition-duration: 26s; }
   .changeTo-second-26s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-27s {
   width: 100px;
@@ -30363,7 +30363,7 @@
   -webkit-transition-duration: 27s; }
   .extnd-height-second-27s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-27s {
   width: 100px;
@@ -30385,7 +30385,7 @@
   -moz-transition-duration: 27s;
   -webkit-transition-duration: 27s; }
   .changeTo-second-27s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-28s {
   width: 100px;
@@ -30398,7 +30398,7 @@
   -webkit-transition-duration: 28s; }
   .extnd-height-second-28s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-28s {
   width: 100px;
@@ -30420,7 +30420,7 @@
   -moz-transition-duration: 28s;
   -webkit-transition-duration: 28s; }
   .changeTo-second-28s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-29s {
   width: 100px;
@@ -30433,7 +30433,7 @@
   -webkit-transition-duration: 29s; }
   .extnd-height-second-29s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-29s {
   width: 100px;
@@ -30455,7 +30455,7 @@
   -moz-transition-duration: 29s;
   -webkit-transition-duration: 29s; }
   .changeTo-second-29s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-30s {
   width: 100px;
@@ -30468,7 +30468,7 @@
   -webkit-transition-duration: 30s; }
   .extnd-height-second-30s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-30s {
   width: 100px;
@@ -30490,7 +30490,7 @@
   -moz-transition-duration: 30s;
   -webkit-transition-duration: 30s; }
   .changeTo-second-30s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-31s {
   width: 100px;
@@ -30503,7 +30503,7 @@
   -webkit-transition-duration: 31s; }
   .extnd-height-second-31s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-31s {
   width: 100px;
@@ -30525,7 +30525,7 @@
   -moz-transition-duration: 31s;
   -webkit-transition-duration: 31s; }
   .changeTo-second-31s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-32s {
   width: 100px;
@@ -30538,7 +30538,7 @@
   -webkit-transition-duration: 32s; }
   .extnd-height-second-32s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-32s {
   width: 100px;
@@ -30560,7 +30560,7 @@
   -moz-transition-duration: 32s;
   -webkit-transition-duration: 32s; }
   .changeTo-second-32s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-33s {
   width: 100px;
@@ -30573,7 +30573,7 @@
   -webkit-transition-duration: 33s; }
   .extnd-height-second-33s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-33s {
   width: 100px;
@@ -30595,7 +30595,7 @@
   -moz-transition-duration: 33s;
   -webkit-transition-duration: 33s; }
   .changeTo-second-33s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-34s {
   width: 100px;
@@ -30608,7 +30608,7 @@
   -webkit-transition-duration: 34s; }
   .extnd-height-second-34s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-34s {
   width: 100px;
@@ -30630,7 +30630,7 @@
   -moz-transition-duration: 34s;
   -webkit-transition-duration: 34s; }
   .changeTo-second-34s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-35s {
   width: 100px;
@@ -30643,7 +30643,7 @@
   -webkit-transition-duration: 35s; }
   .extnd-height-second-35s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-35s {
   width: 100px;
@@ -30665,7 +30665,7 @@
   -moz-transition-duration: 35s;
   -webkit-transition-duration: 35s; }
   .changeTo-second-35s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-36s {
   width: 100px;
@@ -30678,7 +30678,7 @@
   -webkit-transition-duration: 36s; }
   .extnd-height-second-36s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-36s {
   width: 100px;
@@ -30700,7 +30700,7 @@
   -moz-transition-duration: 36s;
   -webkit-transition-duration: 36s; }
   .changeTo-second-36s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-37s {
   width: 100px;
@@ -30713,7 +30713,7 @@
   -webkit-transition-duration: 37s; }
   .extnd-height-second-37s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-37s {
   width: 100px;
@@ -30735,7 +30735,7 @@
   -moz-transition-duration: 37s;
   -webkit-transition-duration: 37s; }
   .changeTo-second-37s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-38s {
   width: 100px;
@@ -30748,7 +30748,7 @@
   -webkit-transition-duration: 38s; }
   .extnd-height-second-38s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-38s {
   width: 100px;
@@ -30770,7 +30770,7 @@
   -moz-transition-duration: 38s;
   -webkit-transition-duration: 38s; }
   .changeTo-second-38s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-39s {
   width: 100px;
@@ -30783,7 +30783,7 @@
   -webkit-transition-duration: 39s; }
   .extnd-height-second-39s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-39s {
   width: 100px;
@@ -30805,7 +30805,7 @@
   -moz-transition-duration: 39s;
   -webkit-transition-duration: 39s; }
   .changeTo-second-39s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-40s {
   width: 100px;
@@ -30818,7 +30818,7 @@
   -webkit-transition-duration: 40s; }
   .extnd-height-second-40s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-40s {
   width: 100px;
@@ -30840,7 +30840,7 @@
   -moz-transition-duration: 40s;
   -webkit-transition-duration: 40s; }
   .changeTo-second-40s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-41s {
   width: 100px;
@@ -30853,7 +30853,7 @@
   -webkit-transition-duration: 41s; }
   .extnd-height-second-41s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-41s {
   width: 100px;
@@ -30875,7 +30875,7 @@
   -moz-transition-duration: 41s;
   -webkit-transition-duration: 41s; }
   .changeTo-second-41s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-42s {
   width: 100px;
@@ -30888,7 +30888,7 @@
   -webkit-transition-duration: 42s; }
   .extnd-height-second-42s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-42s {
   width: 100px;
@@ -30910,7 +30910,7 @@
   -moz-transition-duration: 42s;
   -webkit-transition-duration: 42s; }
   .changeTo-second-42s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-43s {
   width: 100px;
@@ -30923,7 +30923,7 @@
   -webkit-transition-duration: 43s; }
   .extnd-height-second-43s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-43s {
   width: 100px;
@@ -30945,7 +30945,7 @@
   -moz-transition-duration: 43s;
   -webkit-transition-duration: 43s; }
   .changeTo-second-43s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-44s {
   width: 100px;
@@ -30958,7 +30958,7 @@
   -webkit-transition-duration: 44s; }
   .extnd-height-second-44s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-44s {
   width: 100px;
@@ -30980,7 +30980,7 @@
   -moz-transition-duration: 44s;
   -webkit-transition-duration: 44s; }
   .changeTo-second-44s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-45s {
   width: 100px;
@@ -30993,7 +30993,7 @@
   -webkit-transition-duration: 45s; }
   .extnd-height-second-45s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-45s {
   width: 100px;
@@ -31015,7 +31015,7 @@
   -moz-transition-duration: 45s;
   -webkit-transition-duration: 45s; }
   .changeTo-second-45s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-46s {
   width: 100px;
@@ -31028,7 +31028,7 @@
   -webkit-transition-duration: 46s; }
   .extnd-height-second-46s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-46s {
   width: 100px;
@@ -31050,7 +31050,7 @@
   -moz-transition-duration: 46s;
   -webkit-transition-duration: 46s; }
   .changeTo-second-46s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-47s {
   width: 100px;
@@ -31063,7 +31063,7 @@
   -webkit-transition-duration: 47s; }
   .extnd-height-second-47s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-47s {
   width: 100px;
@@ -31085,7 +31085,7 @@
   -moz-transition-duration: 47s;
   -webkit-transition-duration: 47s; }
   .changeTo-second-47s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-48s {
   width: 100px;
@@ -31098,7 +31098,7 @@
   -webkit-transition-duration: 48s; }
   .extnd-height-second-48s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-48s {
   width: 100px;
@@ -31120,7 +31120,7 @@
   -moz-transition-duration: 48s;
   -webkit-transition-duration: 48s; }
   .changeTo-second-48s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-49s {
   width: 100px;
@@ -31133,7 +31133,7 @@
   -webkit-transition-duration: 49s; }
   .extnd-height-second-49s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-49s {
   width: 100px;
@@ -31155,7 +31155,7 @@
   -moz-transition-duration: 49s;
   -webkit-transition-duration: 49s; }
   .changeTo-second-49s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-50s {
   width: 100px;
@@ -31168,7 +31168,7 @@
   -webkit-transition-duration: 50s; }
   .extnd-height-second-50s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-50s {
   width: 100px;
@@ -31190,7 +31190,7 @@
   -moz-transition-duration: 50s;
   -webkit-transition-duration: 50s; }
   .changeTo-second-50s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-51s {
   width: 100px;
@@ -31203,7 +31203,7 @@
   -webkit-transition-duration: 51s; }
   .extnd-height-second-51s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-51s {
   width: 100px;
@@ -31225,7 +31225,7 @@
   -moz-transition-duration: 51s;
   -webkit-transition-duration: 51s; }
   .changeTo-second-51s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-52s {
   width: 100px;
@@ -31238,7 +31238,7 @@
   -webkit-transition-duration: 52s; }
   .extnd-height-second-52s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-52s {
   width: 100px;
@@ -31260,7 +31260,7 @@
   -moz-transition-duration: 52s;
   -webkit-transition-duration: 52s; }
   .changeTo-second-52s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-53s {
   width: 100px;
@@ -31273,7 +31273,7 @@
   -webkit-transition-duration: 53s; }
   .extnd-height-second-53s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-53s {
   width: 100px;
@@ -31295,7 +31295,7 @@
   -moz-transition-duration: 53s;
   -webkit-transition-duration: 53s; }
   .changeTo-second-53s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-54s {
   width: 100px;
@@ -31308,7 +31308,7 @@
   -webkit-transition-duration: 54s; }
   .extnd-height-second-54s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-54s {
   width: 100px;
@@ -31330,7 +31330,7 @@
   -moz-transition-duration: 54s;
   -webkit-transition-duration: 54s; }
   .changeTo-second-54s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-55s {
   width: 100px;
@@ -31343,7 +31343,7 @@
   -webkit-transition-duration: 55s; }
   .extnd-height-second-55s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-55s {
   width: 100px;
@@ -31365,7 +31365,7 @@
   -moz-transition-duration: 55s;
   -webkit-transition-duration: 55s; }
   .changeTo-second-55s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-56s {
   width: 100px;
@@ -31378,7 +31378,7 @@
   -webkit-transition-duration: 56s; }
   .extnd-height-second-56s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-56s {
   width: 100px;
@@ -31400,7 +31400,7 @@
   -moz-transition-duration: 56s;
   -webkit-transition-duration: 56s; }
   .changeTo-second-56s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-57s {
   width: 100px;
@@ -31413,7 +31413,7 @@
   -webkit-transition-duration: 57s; }
   .extnd-height-second-57s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-57s {
   width: 100px;
@@ -31435,7 +31435,7 @@
   -moz-transition-duration: 57s;
   -webkit-transition-duration: 57s; }
   .changeTo-second-57s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-58s {
   width: 100px;
@@ -31448,7 +31448,7 @@
   -webkit-transition-duration: 58s; }
   .extnd-height-second-58s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-58s {
   width: 100px;
@@ -31470,7 +31470,7 @@
   -moz-transition-duration: 58s;
   -webkit-transition-duration: 58s; }
   .changeTo-second-58s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-59s {
   width: 100px;
@@ -31483,7 +31483,7 @@
   -webkit-transition-duration: 59s; }
   .extnd-height-second-59s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-59s {
   width: 100px;
@@ -31505,7 +31505,7 @@
   -moz-transition-duration: 59s;
   -webkit-transition-duration: 59s; }
   .changeTo-second-59s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-second-60s {
   width: 100px;
@@ -31518,7 +31518,7 @@
   -webkit-transition-duration: 60s; }
   .extnd-height-second-60s:hover {
     height: 300px;
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-60s {
   width: 100px;
@@ -31540,7 +31540,7 @@
   -moz-transition-duration: 60s;
   -webkit-transition-duration: 60s; }
   .changeTo-second-60s:hover {
-    background: #505050; }
+    background: #989898; }
 
 .extnd-height-third-0s {
   width: 100px;
