@@ -17,7 +17,6 @@ footer p {
   margin: 10px 0px;  
 }
 footer, .footer-media a {
-  margin-right: 25%;
   color: #fff;
 }
 .footer-media {
@@ -40,6 +39,7 @@ footer, .footer-media a {
   margin: auto 1%;
   line-height: 120%;
   text-align: right;
+  color: #fff;  
 }
 .highlight-1:hover {
   background-color: #D24D3B;
@@ -65,6 +65,10 @@ footer, .footer-media a {
   background-color: #AB79A3;
   color: #fff;
 }
+
+#footer-hold {
+  padding: 0%;
+}
 #link-holder {
   display: flex;
   flex-direction: row;
@@ -81,11 +85,15 @@ footer, .footer-media a {
   }
   .footer-col a {
     text-align: center;
+    color: #fff;
   }
 
   #link-holder {
     flex-direction: column;
     margin: 0% auto;    
+  }
+  #social-hold {
+    margin: 0% auto;
   }
   #footer-hold {
     flex-direction: column;
