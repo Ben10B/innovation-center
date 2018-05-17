@@ -22,7 +22,7 @@ function loadComplete(evt) {
     div2.className = "proj-info flex-2 txt-center";
     var name = document.createElement("a");
     name.innerHTML = data[i].title;
-    name.href = data[i].link;
+    name.href = "//" + data[i].link;
     name.className = "proj-name";
     var need = document.createElement("p");
     need.innerHTML = data[i].need;
