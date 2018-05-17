@@ -17,7 +17,7 @@ if(document.getElementById('footer') != undefined) {
   //copyright
   var copyright = document.createElement("p");
   copyright.className = "bold";
-  copyright.innerHTML = "&copy; Temporary";
+  copyright.innerHTML = "&copy; Neumont College of Computer Science Copyright";
   //placing everything correctly
   a0.appendChild(p0);
   footerMedia.appendChild(icon0);
