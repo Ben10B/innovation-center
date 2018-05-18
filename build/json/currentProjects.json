@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Collage",
+    "description": "A yelp or craigslist type of website that enables anyone to do work or teach a subject of any kind. A review, and certification system will be created to help new users prove their worth and get more job requests. I'd like to see this website/application provide people with different ways to make money easily, besides YouTube, and being an Uber driver. Also with everyone having new ways to learn and teach, it'll hopefully make the world a slightly better place.",
+    "need": "Web Students",
+    "image": "",
+    "link": ""
+  },
+  {
+    "title": "Signlate",
+    "description": "Signlate is a user-friendly, two-way translation app that will translate not only English to ASL but also ASL to English. It is meant to be a lifestyle app that can be tailored to the needs of its users. It uses 3D modeling, instead of actors, allowing it to be updated with new words and dialects. SignLate's main feature is how it allows you to look up a specific sign through keywords and tags to find its meaning in English. My future plans for the app are to implement Augmented Reality, and other languages such as British sign language, and Spanish sign language.",
+    "need": "IS Students",
+    "image": "",
+    "link": ""
+  },
+  {
+    "title": "Dance Generator",
+    "description": "For all white people trying to learn about black culture.",
+    "need": "IS Students",
+    "image": "",
+    "link": ""
+  },
+  {
+    "title": "Paint/Window Tint Mixer",
+    "description": "Makes a paint of an exact hexadecimal or decimal value based on input from user, making a car with defined paint job.",
+    "need": "Web/CS Students",
+    "image": "",
+    "link": ""
+  }
+]
