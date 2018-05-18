@@ -78,23 +78,11 @@ if (document.getElementById('footer') != undefined) {
   footerHold.id = "footer-hold";
   footerHold.className = "row";
   var randomDiv = document.createElement("div");
-  var footerMedia = document.createElement("div");
-  footerMedia.className = "footer-media row";
-  //creating icons
-  var icon0 = document.createElement("i");
-  icon0.className = "fab fa-twitter";
-  var a0 = document.createElement("a");
-  var p0 = document.createElement("p");
-  p0.innerHTML = "Visit our Twitter! (talk to Jerry Pay to see if they have social media)";
   //copyright
   var copyright = document.createElement("p");
   copyright.className = "bold";
-  copyright.innerHTML = "&copy; Temporary";
+  copyright.innerHTML = "&copy; Neumont College of Computer Science Copyright";
   //placing everything correctly
-  a0.appendChild(p0);
-  footerMedia.appendChild(icon0);
-  footerMedia.appendChild(a0);
-  randomDiv.appendChild(footerMedia);
   randomDiv.appendChild(copyright);
   footerHold.appendChild(randomDiv);
   //creates link list
@@ -146,10 +134,6 @@ if (document.getElementById('footer') != undefined) {
 //output
 /* <div id="footer-hold" class="row">
         <div>
-          <div class="footer-media row">
-            <i class="fab fa-twitter"></i>
-            <a href="#"><p>Visit our Twitter! (talk to Jerry Pay to see if they have social media)</p></a>
-          </div>
           <p class="bold">&copy; Temporary</p>         
         </div>
         <div id="link-holder">
