@@ -1,6 +1,32 @@
 [ 
     {
-        "EventName": "Innovative Opening",
-        "EventDescription" : "Gather around as we unviel the opening of our new innovation center to the entire Neumont student body. It's one big leap for us Neumartians"
+        "EventName": "11 AM: Startup Speed Interview Session/n12 AM:Hours with Experts: Legal Support",
+        "When" : "May 15",
+        "Location" : "Lassonde Center" 
+    },
+    {
+        "EventName": "12 PM: Workshops: Financial Models",
+        "When" : "May 16",
+        "Location" : "Lassonde Center"
+    },
+    {
+        "EventName": "12 PM: Hours with Experts: Accounting",
+        "When" : "May 22",
+        "Location" : "Lassonde Center"
+    },
+    {
+        "EventName": "7 PM: Innovation Center Update",
+        "When" : "May 23",
+        "Location" : "Neumont Innovation Center" 
+    },
+    {
+        "EventName": "7 PM: Tiger Fish Tank",
+        "When" : "May 25",
+        "Location" : "Neumont Innovation Center" 
+    },
+    {
+        "EventName": "7 PM: Get Seeded Application Process",
+        "When" : "May 31",
+        "Location" : "Neumont Innovation Center" 
     }
 ]

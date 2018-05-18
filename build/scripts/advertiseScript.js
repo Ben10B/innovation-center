@@ -24,14 +24,14 @@ function loadComplete(evt) {
     name.innerHTML = data[i].title;
     name.href = "//" + data[i].link;
     name.className = "proj-name";
-    var need = document.createElement("p");
-    need.innerHTML = data[i].need;
-    need.className = "proj-need bold";
+    var author = document.createElement("p");
+    author.innerHTML = data[i].author;
+    author.className = "proj-need bold";
     var desc = document.createElement("p");
     desc.innerHTML = data[i].description;
     desc.className = "proj-desc cutoff";
     div2.appendChild(name);
-    div2.appendChild(need);    
+    div2.appendChild(author);    
     div2.appendChild(desc);
     div1.appendChild(img);
     if(i % 2 == 1) {
@@ -43,6 +43,20 @@ function loadComplete(evt) {
       div.appendChild(div1);
     }
     currentProjects.appendChild(div);    
+  }
+  setSameHeight();
+}
+
+function setSameHeight() {
+  var projboxes = document.getElementsByClassName("proj-box");
+  var tallest = 0;
+  for(var i = 0; i < projboxes.length; i++) {
+    if(projboxes[i].offsetHeight > tallest) {
+      tallest = projboxes[i].offsetHeight;
+    }
+  }
+  for(var i = 0; i < projboxes.length; i++) {
+    projboxes[i].style.height = tallest + "px";
   }
 }
 

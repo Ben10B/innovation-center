@@ -13,8 +13,11 @@ h1, #pageDesc {
 }
 
 .proj-box {
+  display: flex;
+  flex: 1;
   border: 1px solid #000;
   margin: 3% 2% 0% 2%;
+  line-height: 19px;
   min-height: 150px;
   justify-content:center;
   align-items:center;

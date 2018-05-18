@@ -5,8 +5,8 @@ body {
 }
 
 .upper-bar {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     max-width: 100%;
     margin: auto;
     padding: 0px;
@@ -204,11 +204,23 @@ body {
     text-decoration: underline;
 }
 
-#event-name, #eventdescription {
+.name-title {
+    padding-top: 5px;
+    text-align: center;        
+    text-decoration: underline;
+}
+
+.desc-title {
+    padding-top: 5px;
+    text-align: center;        
+    text-decoration: underline;
+}
+
+.event-name, .eventdescription {
     padding: 20px;
 }
 
-#event-name {
+.event-name {
     text-align: center;
 }
 
