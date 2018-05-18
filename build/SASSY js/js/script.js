@@ -101,10 +101,6 @@ if (document.getElementsByClassName("parallax") !== null) {
     setParallax();
 }
 function setParallax() {
-    // var parallax = document.getElementsByClassName("parallax")[0];
-    // var img = parallax.getElementsByTagName("img")[0];
-    // parallax.style.backgroundImage = "url('"+img.src+"')";
-    // img.style.display = "none";
     var parallax = document.getElementsByClassName("parallax");
     var img = [];
     for (var i = 0; i < parallax.length; i++) {
@@ -115,7 +111,26 @@ function setParallax() {
         img[i].style.display = "none";
     }
 }
+var parallaxIndex = 1;
+if (document.getElementsByClassName("parallax-show")[0] !== undefined) {
+    setParallaxShow();
+}
+function setParallaxShow() {
+    var parallax = document.getElementsByClassName("parallax-show")[0];
+    console.log(parallax);
+    var img = [];
+    for (var i = 0; i < parallax.getElementsByTagName("img").length; i++) {
+        img.push(parallax.getElementsByTagName("img")[i]);
+        img[i].style.display = "none";
+    }
+    if(parallaxIndex > img.length) parallaxIndex = 1;
+    if(parallaxIndex < 1) parallaxIndex = img.length;
 
+    parallax.style.backgroundImage = "url('" + img[parallaxIndex - 1].src + "')";
+
+    parallaxIndex++;
+    setTimeout(setParallaxShow, 5000);
+}
 //Sticky Navbar
 window.onscroll = function () { stickNavbar() };
 var navbar = document.getElementsByClassName("fancyNavbar")[0];
