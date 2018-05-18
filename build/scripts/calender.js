@@ -7,8 +7,10 @@ var monthColor = document.getElementById("month");
 var year = document.getElementById("the-year");
 var day = document.getElementById('days');
 //Year
-var nameofevent = document.getElementById('event-name');
-var descriptionofevent = document.getElementById('eventdescription');
+var nameofevent = document.getElementsByClassName('event-name');
+var descriptionofevent = document.getElementsByClassName('eventdescription');
+var eventname = document.getElementsByClassName('name-title');
+var eventdescription = document.getElementsByClassName('desc-title');
 //JSON
 var ulist = document.createElement("ul");
 var list = document.createElement("li");
@@ -45,12 +47,20 @@ function getDays(currentMonth, currentYear) {
     day.innerHTML = "";
     days.forEach(function (theday) {
         list = document.createElement("li");
-        list.ondblclick = function () { createModal() };
+        list.ondblclick = function () {createModal()};
         list.onclick = function() {displayEvent()};
         list.innerHTML = theday;
-        ulist.appendChild(list);
+        ulist.appendChild(list);        
+        var nametitle = document.createElement("p");
+        nametitle.className = "event-name";
+        nametitle.style.display = "none";
+        var desctitle = document.createElement("p");
+        desctitle.className = "eventdescription";
+        desctitle.style.display = "none";         
     });
     day.appendChild(ulist);
+    eventname.appendChild(nametitle);    
+    eventdescription.appendChild(desctitle);
 }
 
 function createModal() {
@@ -187,7 +197,7 @@ function formLoadComplete(evt) {
     var eventDesc = document.forms["eventform"]["eventdesc"];
     eventName.value = event[0].EventName;
     eventDesc.value = event[0].EventDescription;
-    nameofevent.innerText = eventName.value;
+    eventname.innerText = eventName.value;
     descriptionofevent.innerHTML = eventDesc.value;     
     eventName.value = "";
     eventDesc.value = "";      
