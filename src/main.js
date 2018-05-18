@@ -5,14 +5,13 @@ if(document.getElementById('footer') != undefined) {
   var footerHold = document.createElement("div");
   footerHold.id = "footer-hold";
   footerHold.className = "row";
-  var randomDiv = document.createElement("div");
   //copyright
   var copyright = document.createElement("p");
   copyright.className = "bold";
+  copyright.id = "copyright";
   copyright.innerHTML = "&copy; Neumont College of Computer Science Copyright";
-  //placing everything correctly
-  randomDiv.appendChild(copyright);
-  footerHold.appendChild(randomDiv);
+  //placing copyright
+  footerHold.appendChild(copyright);
   //creates link list
   var linkHolder = document.createElement("div");  
   linkHolder.id = "link-holder";
@@ -34,16 +33,16 @@ if(document.getElementById('footer') != undefined) {
   links[1].className = "highlight-2";
   links[1].innerHTML = "Contact Us";
   links[1].href = "contact.html";
-  links[2].className = "highlight-3";
+  links[2].className = "highlight-4";
   links[2].innerHTML = "Advertise for Expertise";
   links[2].href = "advertise.html";
-  links[3].className = "highlight-4";
+  links[3].className = "highlight-5";
   links[3].innerHTML = "Calendar";
   links[3].href = "calendar.html";
-  links[4].className = "highlight-5";
+  links[4].className = "highlight-6";
   links[4].innerHTML = "Current Projects";
   links[4].href = "currentProjects.html";
-  links[5].className = "highlight-5";
+  links[5].className = "highlight-6";
   links[5].innerHTML = "Awards";
   links[5].href = "currentProjects.html";
   //placing things correctly
@@ -61,19 +60,17 @@ if(document.getElementById('footer') != undefined) {
 }
 //output
 /* <div id="footer-hold" class="row">
-        <div>
-          <p class="bold">&copy; Temporary</p>         
-        </div>
-        <div id="link-holder">
-          <ul class="footer-col">
-            <a href="index.html" class="highlight-1">Information</a>
-            <a href="contact.html" class="highlight-2">Contact Us</a>
-            <a href="advertise.html" class="highlight-3">Advertise for Expertise</a>
-          </ul>
-          <ul class="footer-col">
-            <a href="calender.html" class="highlight-4">Calendar</a>
-            <a href="currentProjects.html" class="highlight-5">Current Projects</a>
-            <a href="currentProjects.html" class="highlight-5">Awards</a>
-          </ul>
-        </div>
-      </div> */
+  <p class="bold">&copy; Temporary</p>         
+  <div id="link-holder">
+    <ul class="footer-col">
+      <a href="index.html" class="highlight-1">Information</a>
+      <a href="contact.html" class="highlight-2">Contact Us</a>
+      <a href="advertise.html" class="highlight-3">Advertise for Expertise</a>
+    </ul>
+    <ul class="footer-col">
+      <a href="calender.html" class="highlight-4">Calendar</a>
+      <a href="currentProjects.html" class="highlight-5">Current Projects</a>
+      <a href="currentProjects.html" class="highlight-5">Awards</a>
+    </ul>
+  </div>
+</div> */

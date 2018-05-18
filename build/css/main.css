@@ -45,15 +45,8 @@ footer p {
   padding: .5%;
   margin: 10px 0px;  
 }
-footer, .footer-media a {
+footer {
   color: #fff;
-}
-.footer-media {
-  padding: .5%;  
-  align-items:center;
-}
-.footer-media svg {
-  color: #1DA1F2;
 }
 .footer-col {
   display: flex;
@@ -97,6 +90,9 @@ footer, .footer-media a {
 
 #footer-hold {
   padding: 0%;
+}
+#copyright {
+  margin: auto 0%;
 }
 #link-holder {
   display: flex;
