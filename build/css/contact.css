@@ -18,3 +18,17 @@ ol li {
 .headDesc {
   margin-top: 2%;
 }
+
+#payHold {
+  margin: auto 0%;
+}
+#payPic {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media all and (max-width: 575px) {
+  .row {
+    flex-direction: column;
+  }
+}

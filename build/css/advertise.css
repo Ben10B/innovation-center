@@ -17,6 +17,7 @@ h1, #pageDesc {
   flex: 1;
   border: 1px solid #000;
   margin: 3% 2% 0% 2%;
+  height: fit-content;
   line-height: 19px;
   min-height: 150px;
   justify-content:center;

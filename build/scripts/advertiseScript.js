@@ -44,7 +44,7 @@ function loadComplete(evt) {
     }
     currentProjects.appendChild(div);    
   }
-  setSameHeight();
+  //setSameHeight();
 }
 
 function setSameHeight() {
