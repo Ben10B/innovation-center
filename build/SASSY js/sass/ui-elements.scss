@@ -36,6 +36,11 @@
     &:hover{ background-color: lighten($thirdColor, 100%); color: black;
     }
 }
+.bg-yellow-hvr{
+    background-color: #FC0; 
+    &:hover{ background-color: darken(#FC0, 2%); color: black;
+    }
+}
 .disabled{ 
     opacity: 0.6;
     cursor: not-allowed;
