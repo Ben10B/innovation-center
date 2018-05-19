@@ -35,8 +35,8 @@ function loadComplete(evt) {
     div1.appendChild(div2);
     div1.appendChild(div3);   
     var br = document.createElement('br'); 
-    div.appendChild(br)
-    currentProjects.appendChild(div);    
+    div.appendChild(br);
+    currentProjects.appendChild(div);   
   }
 }
 

@@ -78,6 +78,32 @@ body {
     box-shadow: none;
   }
 
+  .pagination li{
+    border: 1px solid #FC0;
+    background-color: #2b2929;
+    color: #FC0;
+    border-radius: 0px;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+  }
+
+  .pagination li a{
+    color: #fc0;
+  }
+
+  .pagination li a:hover{
+    color: #000;
+  }
+
+  .pagination li:hover {
+    background-color: #FC0;
+    color: #2b2929;
+  }
+
+  .pagination li .active {
+    background-color: #000;
+  }
+
   @media all and (max-width: 800px) {
     .flx-row-container {
       display: flex;

@@ -7,10 +7,9 @@ var monthColor = document.getElementById("month");
 var year = document.getElementById("the-year");
 var day = document.getElementById('days');
 //Year
-var nameofevent = document.getElementsByClassName('event-name');
-var descriptionofevent = document.getElementsByClassName('eventdescription');
-var eventname = document.getElementsByClassName('name-title');
-var eventdescription = document.getElementsByClassName('desc-title');
+var eventName = document.forms["eventform"]["eventname"];
+var eventDesc = document.forms["eventform"]["eventdesc"];
+var eventdisplay = document.getElementById('event-display');
 //JSON
 var ulist = document.createElement("ul");
 var list = document.createElement("li");
@@ -22,6 +21,7 @@ var currentYear = d.getFullYear();
 var currentDay = d.getDate();
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var monthIndex = 0;
+var days;
 
 function switchMonths(index) {
     navigateCalender(monthIndex += index);
@@ -36,8 +36,8 @@ function getCurrentMonth() {
 
 function getDays(currentMonth, currentYear) {
     var date = new Date(currentYear, currentMonth, 1);
-    var days = [];
-
+    var today = new Date();
+    days = [];
     while (date.getMonth() === currentMonth) {
         days.push(new Date(date).toUTCString().substring(0, 7));
         date.setDate(date.getDate() + 1);
@@ -45,23 +45,55 @@ function getDays(currentMonth, currentYear) {
     list.innerHTML = "";
     ulist.innerHTML = "";
     day.innerHTML = "";
-    days.forEach(function (theday) {
+    days.forEach(function(theday) {
+        var counter;
         list = document.createElement("li");
-        list.ondblclick = function () {createModal()};
-        list.onclick = function() {displayEvent()};
         list.innerHTML = theday;
-        ulist.appendChild(list);        
+        ulist.appendChild(list);  
+
+        var div = document.createElement("div");
+        div.className = "events";
+        
+        var title = document.createElement("h3");
+        title.className = "title";  
+        title.innerHTML = "Events";  
+        
+        var titleName = document.createElement("p");
+        titleName.className = "name-title";    
+        titleName.innerHTML = "Event Name";
+
         var nametitle = document.createElement("p");
         nametitle.className = "event-name";
-        nametitle.style.display = "none";
+        nametitle.innerHTML = "Practice";
+
+        var titleDesc = document.createElement("p");
+        titleDesc.className = "desc-title";
+        titleDesc.innerHTML = "Description";    
+
         var desctitle = document.createElement("p");
         desctitle.className = "eventdescription";
-        desctitle.style.display = "none";         
+        desctitle.innerHTML = "Practice";        
+        div.appendChild(title);
+        div.appendChild(titleName);
+        div.appendChild(nametitle);        
+        div.appendChild(titleDesc);                    
+        div.appendChild(desctitle);        
+        eventdisplay.appendChild(div);
+        div.style.display = "none";
+        if(theday == date.getDate()) {
+            div.style.display = "block";                                
+        }
+        list.ondblclick = function () {createModal()};
+        list.onclick = function() {
+            div.style.display = "block";
+        };
     });
     day.appendChild(ulist);
-    eventname.appendChild(nametitle);    
-    eventdescription.appendChild(desctitle);
 }
+    var eventname = document.getElementsByClassName('name-title');
+    var eventdescription = document.getElementsByClassName('desc-title');
+    var nameofevent = document.getElementsByClassName('event-name');
+    var descriptionofevent = document.getElementsByClassName('eventdescription');
 
 function createModal() {
     var modal = document.getElementById('myCalenderModal');
@@ -179,10 +211,6 @@ function navigateCalender(index) {
     }
 }
 
-function displayEvent() {
-    
-}
-
 var event;
 var request = new XMLHttpRequest();
 
@@ -193,11 +221,10 @@ function loadFormData() {
 }
 function formLoadComplete(evt) {
     event = JSON.parse(request.responseText);
-    var eventName = document.forms["eventform"]["eventname"];
-    var eventDesc = document.forms["eventform"]["eventdesc"];
+
     eventName.value = event[0].EventName;
     eventDesc.value = event[0].EventDescription;
-    eventname.innerText = eventName.value;
+    eventname.innerHTML = eventName.value;
     descriptionofevent.innerHTML = eventDesc.value;     
     eventName.value = "";
     eventDesc.value = "";      
