@@ -9,7 +9,7 @@ var day = document.getElementById('days');
 //Year
 var eventName = document.forms["eventform"]["eventname"];
 var eventDesc = document.forms["eventform"]["eventdesc"];
-var eventdisplay = document.getElementById('event-display');
+var events = document.getElementById('events');
 //JSON
 var ulist = document.createElement("ul");
 var list = document.createElement("li");
@@ -25,18 +25,17 @@ var days;
 
 function switchMonths(index) {
     navigateCalender(monthIndex += index);
-    getDays(monthIndex, currentYear);
+    getDays(monthIndex, currentYear, currentDay);
 }
 
 function getCurrentMonth() {
     monthIndex = currentMonth;
     navigateCalender(monthIndex);
-    getDays(currentMonth, currentYear);
+    getDays(currentMonth, currentYear, currentDay);
 }
 
-function getDays(currentMonth, currentYear) {
+function getDays(currentMonth, currentYear, currentDay) {
     var date = new Date(currentYear, currentMonth, 1);
-    var today = new Date();
     days = [];
     while (date.getMonth() === currentMonth) {
         days.push(new Date(date).toUTCString().substring(0, 7));
@@ -50,9 +49,6 @@ function getDays(currentMonth, currentYear) {
         list = document.createElement("li");
         list.innerHTML = theday;
         ulist.appendChild(list);  
-
-        var div = document.createElement("div");
-        div.className = "events";
         
         var title = document.createElement("h3");
         title.className = "title";  
@@ -73,14 +69,14 @@ function getDays(currentMonth, currentYear) {
         var desctitle = document.createElement("p");
         desctitle.className = "eventdescription";
         desctitle.innerHTML = "Practice";        
-        div.appendChild(title);
-        div.appendChild(titleName);
-        div.appendChild(nametitle);        
-        div.appendChild(titleDesc);                    
-        div.appendChild(desctitle);        
-        eventdisplay.appendChild(div);
+        
+        yevents.appendChild(title);
+        events.appendChild(titleName);
+        events.appendChild(nametitle);         
+        events.appendChild(titleDesc);                    
+        events.appendChild(desctitle);        
         div.style.display = "none";
-        if(theday == date.getDate()) {
+        if(theday == currentDay) {
             div.style.display = "block";                                
         }
         list.ondblclick = function () {createModal()};
@@ -227,5 +223,6 @@ function formLoadComplete(evt) {
     eventname.innerHTML = eventName.value;
     descriptionofevent.innerHTML = eventDesc.value;     
     eventName.value = "";
-    eventDesc.value = "";      
+    eventDesc.value = ""; 
+    console.log(days);     
 }
