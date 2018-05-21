@@ -20,9 +20,9 @@ function loadComplete(evt) {
     img.src = data[i].image;
     var div2 = document.createElement("div");
     div2.className = "proj-info flex-2 txt-center";
-    var name = document.createElement("a");
+    var name = document.createElement("p");
     name.innerHTML = data[i].title;
-    name.href = "//" + data[i].link;
+    //name.href = "//" + data[i].link;
     name.className = "proj-name";
     var author = document.createElement("p");
     author.innerHTML = data[i].author;

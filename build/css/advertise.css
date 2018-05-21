@@ -1,16 +1,16 @@
-body {
+/* body {
   background-attachment: fixed;
   background-image: url('../images/innovation 20.jpg');
   background-size: 100%;
-}
+} */
 h1 {
   margin-top: 20px;
 }
 
-h1, #pageDesc {
+/* h1, #pageDesc {
   margin-right: 25%;
   color: #fff;
-}
+} */
 
 .proj-box {
   display: flex;
