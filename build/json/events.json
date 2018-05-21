@@ -1,32 +1,44 @@
 [ 
     {
-        "EventName": "11 AM: Startup Speed Interview Session/n12 AM:Hours with Experts: Legal Support",
-        "When" : "May 15",
-        "Location" : "Lassonde Center" 
+        "eventname": "11 AM: Startup Speed Interview Session",
+        "when" : "May 15",
+        "image": "",
+        "location" : "Lassonde Center" 
     },
     {
-        "EventName": "12 PM: Workshops: Financial Models",
-        "When" : "May 16",
-        "Location" : "Lassonde Center"
+        "eventname": "12 AM:Hours with Experts: Legal Support",
+        "when" : "May 15",
+        "image": "",
+        "location" : "Lassonde Center" 
     },
     {
-        "EventName": "12 PM: Hours with Experts: Accounting",
-        "When" : "May 22",
-        "Location" : "Lassonde Center"
+        "image": "",
+        "eventname": "12 PM: Workshops: Financial Models",
+        "when" : "May 16",
+        "location" : "Lassonde Center"
     },
     {
-        "EventName": "7 PM: Innovation Center Update",
-        "When" : "May 23",
-        "Location" : "Neumont Innovation Center" 
+        "eventname": "12 PM: Hours with Experts: Accounting",
+        "when" : "May 22",
+        "image": "",
+        "location" : "Lassonde Center"
     },
     {
-        "EventName": "7 PM: Tiger Fish Tank",
-        "When" : "May 25",
-        "Location" : "Neumont Innovation Center" 
+        "eventname": "7 PM: Innovation Center Update",
+        "when" : "May 23",
+        "image": "",
+        "location" : "Neumont Innovation Center" 
     },
     {
-        "EventName": "7 PM: Get Seeded Application Process",
-        "When" : "May 31",
-        "Location" : "Neumont Innovation Center" 
+        "eventname": "7 PM: Tiger Fish Tank",
+        "when" : "May 25",
+        "image": "",
+        "location" : "Neumont Innovation Center" 
+    },
+    {
+        "eventname": "7 PM: Get Seeded Application Process",
+        "when" : "May 31",
+        "image": "",
+        "location" : "Neumont Innovation Center" 
     }
 ]
