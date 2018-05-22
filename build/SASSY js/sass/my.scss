@@ -140,6 +140,8 @@ html{ overflow-x: hidden;
       @each $color in 'red', 'tGreen', 'fGreen', 'cyan', 'blue', 'grape'{
         .dropNav-#{$color}{
           position: relative;
+          min-width: 100%;
+        max-width: 100%;
           a{
             display: block;
             padding: 5px;
@@ -150,5 +152,5 @@ html{ overflow-x: hidden;
   }
 }
 @media all and (max-width: 550px){
-  .parallax{ height: 75%; }
+  .parallax, #header{ height: 50%; }
 }
