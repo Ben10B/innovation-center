@@ -226,7 +226,7 @@ function loadData() {
 function loadComplete(evt) {
     data = JSON.parse(request.responseText);
     for (var i = 0; i < data.length; i++) {
-        if(data[i].when == "May 15" && selectedDate == null) {            
+        if(data[i].when == current && selectedDate == null) {            
             var div = document.createElement("div");
             div.className = "events";
 
